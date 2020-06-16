@@ -1,6 +1,8 @@
 public class Test {
 	public static void main(String[] args) {
 		String name = "Oqba amir";
-		System.out.println(name.contains("ba"));
+		if (name.contains("ba")){
+			System.out.println("Yes, <ba> in <" + name + ">");
+		}
 	}
 }
