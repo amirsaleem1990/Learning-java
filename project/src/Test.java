@@ -10,4 +10,5 @@ public class Test {
 	}
 }
 
-// string_variable_name.contains(sub_string) -> true/false
+string_variable_name.contains(sub_string) -> true/false
+string_variable_name.endsWith(sub_string) -> true/false
