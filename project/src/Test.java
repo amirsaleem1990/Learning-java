@@ -8,10 +8,10 @@ public class Test {
 			System.out.println("Yes, <" + name + "> ends with  <mir>");
 		}
 		if (name.equals("Oqba amir")){
-			System.out.println("Yes, the variabel <name> equals <Oqba amir>")
+			System.out.println("Yes, the variabel <name> equals <Oqba amir>");
 		}
 	}
 }
 
-string_variable_name.contains(sub_string) -> true/false
-string_variable_name.endsWith(sub_string) -> true/false
+// string_variable_name.contains(sub_string) -> true/false
+// string_variable_name.endsWith(sub_string) -> true/false
