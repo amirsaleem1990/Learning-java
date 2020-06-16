@@ -1,5 +1,6 @@
-public class Test {
-	public static void main(String[] args) {
-		System.out.println("OKKKKKKKKKKKKKKKKKKKKKk");
+package test;
+pcublic class Test{
+	public static void main(String[] args){
+		String name = "Oqba amir";
+		System.out.println(name.contains("ba"));
 	}
-}
