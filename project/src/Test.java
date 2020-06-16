@@ -7,6 +7,9 @@ public class Test {
 		if (name.endsWith("mir")){
 			System.out.println("Yes, <" + name + "> ends with  <mir>");
 		}
+		if (name.equals("Oqba amir")){
+			System.out.println("Yes, the variabel <name> equals <Oqba amir>")
+		}
 	}
 }
 
