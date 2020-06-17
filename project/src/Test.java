@@ -8,6 +8,6 @@ public class Test{
 		String father_name = fath.name;
 		int father_age = fath.age;
 
-		System.out.println("My Father's name is: " + father_name, ", and  he is " + father_age + " old\nMy brother's name is: " + brother_name, ", and he is " + brother_age + " old\n") 
+		System.out.println("My Father's name is: " + father_name +  ", and  he is " + father_age + " old\nMy brother's name is: " + brother_name +  ", and he is " + brother_age + " old\n");
 	}
 }
