@@ -6,6 +6,6 @@ public class Test extends parent {
 	}
 
 	public static SHOW() {
-		System.out.println("Welcome");
+		System.out.println("<SHOW> function called Successfully");
 	}
 }
