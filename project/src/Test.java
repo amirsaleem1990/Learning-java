@@ -1,8 +1,10 @@
-public class parent {
-	String name = "Amir";
-	ing age = 30;
+public class Test extends parent {
+	public static void main(String[] args){
+		Test t = new Test();
+		t.print_();
+	}
 
-	public void print_() {
-		System.out.println("Name : " + name + "\nAge: " + age);
+	public static SHOW() {
+		System.out.println("Welcome");
 	}
 }
