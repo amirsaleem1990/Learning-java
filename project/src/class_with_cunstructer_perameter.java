@@ -11,6 +11,6 @@ public class class_with_cunstructer_perameter{
 	// onother way to define Constructor is to defice it with perameters, to jab ham apni main me is class ka object banaen gay tabhi us ko perameters dy den gy
 
 	public void print_func(){
-		System.out.println("class with cunstructer perameter\nName = " + name + "\nAge = " + age);
+		System.out.println("\nclass with cunstructer perameter\nName = " + name + "\nAge = " + age);
 	}
 }
