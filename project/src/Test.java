@@ -7,7 +7,7 @@ public class Test {
 		// when constructer has no perametsr
 		class_with_cunstructer_perameter obJ2 = new class_with_cunstructer_perameter("Amir", 30);
 		
-		// obJ.print_func();
+		obJ.print_func();
 		obJ2.print_func();
 	}
 }
