@@ -4,9 +4,9 @@ public class class_with_cunstructer_perameter{
 	int age = 30;
 
 	// Constructor
-	public class_with_cunstructer_perameter(String Name, int Age){
-		name = Name;
-		age = Age; 
+	public class_with_cunstructer_perameter(String name_, int age_){
+		name = name_;
+		age  = age_ ; 
 	}
 	// onother way to define Constructor is to defice it with perameters, to jab ham apni main me is class ka object banaen gay tabhi us ko perameters dy den gy
 
