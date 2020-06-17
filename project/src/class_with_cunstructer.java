@@ -1,4 +1,4 @@
-public class class_with_cunstructer(){
+public class class_with_cunstructer{
 
 	String name = "Amir";
 	int age = 30;
