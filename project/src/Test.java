@@ -5,7 +5,7 @@ public class Test extends parent {
 		t.SHOW();
 	}
 
-	public static SHOW() {
+	public static void SHOW() {
 		System.out.println("<SHOW> function called Successfully");
 	}
 }
