@@ -1,16 +1,20 @@
-public class Test{
+public class Test {
 	public static void main(String[] args){
-		brother bro = new brother();
-		String brother_name = bro.name;
-		int brother_age = bro.age;
-		bro.print_();
 
-		father fath = new father();
-		String father_name = fath.name;
-		int father_age = fath.age;
-		fath.print_();
+	}
+}
 
-		System.out.println("My Father's name is: " + father_name +  ", and  he is " + father_age + " old\nMy brother's name is: " + brother_name +  ", and he is " + brother_age + " old\n");
 
+public class class_with_cunstructer(){
+
+	String name = "Amir";
+	int age = 30;
+	public class_with_cunstructer(){
+		name = "Oqba";
+		age = 2; 
+	}
+
+	public void print_func(){
+		System.out.println("Name = " + name + "\nAge = " + age);
 	}
 }
