@@ -1,6 +1,13 @@
-public class Test {
+public class Test extends parent_class {
 	public static void main(String[] args) {
 
+	Test test = new Test();
+	test.print_();
+	test.print_(5);
+	test.print_(5,6);
+	test.print_("Amir");
+	test.print_(4, "Amir");
+	test.print_(4)
 	}
 	public void print_() {
 		System.out.println("Test func 1 called");
