@@ -1,0 +1,20 @@
+access modifiers:
+	public: har koi har jaga sy access kar sakta h
+	private: srif same class waha hi access kar sakta h
+	default: srif same package* sy use ho sakta h <jab ham ksi variable ya method k sath koi modifier nahi lagaty to default us ka modifier hota h>
+	protected: same package me use ho sakta h, or agar package change h to <import> sy access nahi ho ga balky <extends> sy access ho ga.
+
+
+
+
+	* <src> folder me ham 1 folder bana kar apni files us me rakhty hen, is folder ko package kehty hen.
+	test
+	____src
+		___test
+			___students.java
+			___test.java
+		___test2
+			___parents.java
+			___script.java
+	yahan <test> and <test2> 2 packages hen, agar ksi package sy koi cheez chahye ho to ham pehly us package ko import karty hen:
+	import test2.parents
