@@ -7,7 +7,7 @@ public class Test extends classes {
 		System.out.println("Before set new value: " + t.get_());
 
 		Scanner obj = new Scanner(System.in);
-
+		int x = obj.nextInt();
 		t.set_(987);
 		System.out.println("After set new value: " + t.get_());
 	}
