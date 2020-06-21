@@ -4,7 +4,7 @@ public class classes {
 	public int get_() {
 		return mobile_no;
 	}
-	public void set_(x) {
+	public void set_(int x) {
 		this.mobile_no = x;
 	}
 
