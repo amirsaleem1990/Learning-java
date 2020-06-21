@@ -10,6 +10,7 @@ public class Test extends classes {
 		Scanner obj = new Scanner(System.in);
 		int x = obj.nextInt();
 		t.set_(x);
-		System.out.println("____ After set a new value ____\nmobile_no = " + t.get_());
+		System.out.println("\n\n____ After set a new value ____\nmobile_no = " + t.get_());
 	}
+
 }
