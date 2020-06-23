@@ -106,7 +106,14 @@ public staic int max(int[] numbers) {
 }
 //------------------------------------------------------------------------------------
 // Collections:
-ArrayList
+ArrayList:
+	pros:
+
+	cons:
+		the size is fiexed once the array is created
+		not many builtin functions
+		we had to manage where data was stored in the array
+		not very efficient for some application
 LinkedList
 HashMap
 Treeset
