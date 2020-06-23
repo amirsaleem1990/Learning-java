@@ -105,7 +105,7 @@ public staic int max(int[] numbers) {
 	}
 }
 //------------------------------------------------------------------------------------
-// Collections:
+// Collections: a collection is a container that groups similar elements into a single entity.
 ArrayList:
 	pros:
 
