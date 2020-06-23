@@ -105,21 +105,26 @@ public staic int max(int[] numbers) {
 	}
 }
 //------------------------------------------------------------------------------------
-// Collections: a collection is a container that groups similar elements into a single entity.
-ArrayList:
-	pros:
+// cons of array:
+// 		the size is fiexed once the array is created
+// 		not many builtin functions
+// 		we had to manage where data was stored in the array
+// 		not very efficient for some application
 
-	cons:
-		the size is fiexed once the array is created
-		not many builtin functions
-		we had to manage where data was stored in the array
-		not very efficient for some application
+// Collections: a collection is a container that groups similar elements into a single entity.
+// all Collections in the java.util.package
+ArrayList:
 LinkedList
 HashMap
 Treeset
-
-// all Collections in the java.util.package
-
+// pros of collection:
+	// dinamic size hota h, array ki tarah fixed size nahi hota
+	// faster execution
+// when constuction a collection, you must specify the type of elements it will contain between < and >. eg:
+Collection <Type> name = new Collection<Type>();
+ArrayList <String> words = new ArrayList<String>();
+words.add("Book");
+words.add("Desk");
 //------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------
