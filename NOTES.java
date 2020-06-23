@@ -113,10 +113,11 @@ public staic int max(int[] numbers) {
 
 // Collections: a collection is a container that groups similar elements into a single entity.
 // all Collections in the java.util.package
-ArrayList:
-LinkedList
-HashMap
-Treeset
+Collections:
+	Set // an unordered collection, not allow duplicates
+		SortedSet // same as set but have an orders
+	List 
+	Queue
 // pros of collection:
 	// dinamic size hota h, array ki tarah fixed size nahi hota
 	// faster execution
