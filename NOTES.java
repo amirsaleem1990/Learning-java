@@ -121,8 +121,8 @@ Treeset
 	// dinamic size hota h, array ki tarah fixed size nahi hota
 	// faster execution
 // when constuction a collection, you must specify the type of elements it will contain between < and >, this is called a <type parameter> or a <generic class>. this will allow the same class to store elements of diffrent types. eg:
-Collection <Type> name = new Collection<Type>();
-ArrayList <String> words = new ArrayList<String>();
+Collection<Type> name = new Collection<Type>();
+ArrayList<String> words = new ArrayList<String>();
 words.add("Book");
 words.add("Desk");
 //------------------------------------------------------------------------------------
