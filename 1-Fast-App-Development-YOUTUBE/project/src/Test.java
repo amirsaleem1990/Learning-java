@@ -8,6 +8,9 @@ import javax.swing.JButton;
 import javax.swing.JTextField;
 
 
+import java.awt.Font;
+
+
 public class Test {
 	public static void main(String[] args){
 		
@@ -34,6 +37,12 @@ public class Test {
 		JButton b0 = new JButton("0");
 
 		JTextField tf = new JTextField("");
+		// ------------------
+		Font font1 = new Font("SansSerif", Font.BOLD, 20);
+		// tf.setLocation(5, 5);
+		tf.setSize(150,20);	
+		tf.setFont(font1);
+		// ------------------
 
 		tf.setBounds      (30,  200, 580, 90);
 		b_add.setBounds   (30,  300, 130, 90); 
