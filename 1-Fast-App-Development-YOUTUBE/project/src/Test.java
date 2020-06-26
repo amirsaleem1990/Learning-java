@@ -17,7 +17,7 @@ public class Test {
 		t1.setBounds(100, 100, 150, 30);
 
 		b1.addActionListener(new ActionListener() {
-			@Override
+			// @Override
 			public void actionPerformed(ActionEvent arg0){
 				t1.setText("Welcome to my first GUI java program");
 			}
