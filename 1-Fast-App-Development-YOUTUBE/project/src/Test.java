@@ -20,6 +20,15 @@ public class Test {
 		b2.setBounds(100, 200, 150, 30);
 		t1.setBounds(100, 100, 150, 30);
 		
+		// b1.addActionListener(new ActionListener() {
+			
+		// 	@Override
+		// 	public void actionPerformed(ActionEvent arg0) {
+		// 		t1.setText("Welcome to my first GUI java program");
+				
+		// 	}
+		// });
+
 		b1.addActionListener(new ActionListener() {
 			
 			@Override
@@ -28,7 +37,6 @@ public class Test {
 				
 			}
 		});
-
 		f.add(b1);
 		f.add(b2);
 		f.add(t1);
