@@ -18,7 +18,7 @@ public class Test {
 
 		b1.setBounds(100, 150, 150, 30);
 		b2.setBounds(100, 200, 150, 30);
-		t1.setBounds(100, 100, 200, 30);
+		t1.setBounds(100, 100, 250, 30);
 		
 		b1.addActionListener(new ActionListener() {
 			
@@ -35,7 +35,7 @@ public class Test {
 			public void actionPerformed(ActionEvent arg0) {
 				t1.setText("");
 			}
-		})
+		});
 
 		f.add(b1);
 		f.add(b2);
