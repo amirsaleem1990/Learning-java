@@ -27,14 +27,14 @@ public class Test {
 
 
 		b1.setBounds(30,  400, 170, 90);
-		b2.setBounds(200, 400, 170, 90);
-		b3.setBounds(400, 400, 170, 90);
+		b2.setBounds(230, 400, 170, 90);
+		b3.setBounds(430, 400, 170, 90);
 		b4.setBounds(30,  500, 170, 90);
-		b5.setBounds(200, 500, 170, 90);
-		b6.setBounds(400, 500, 170, 90);
+		b5.setBounds(230, 500, 170, 90);
+		b6.setBounds(430, 500, 170, 90);
 		b7.setBounds(30,  600, 170, 90);
-		b8.setBounds(200, 600, 170, 90);
-		b9.setBounds(400, 600, 170, 90);
+		b8.setBounds(230, 600, 170, 90);
+		b9.setBounds(430, 600, 170, 90);
 		b0.setBounds(30,  700, 170, 90);
 		
 		// b1.addActionListener(new ActionListener() {
