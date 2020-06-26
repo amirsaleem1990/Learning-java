@@ -26,16 +26,16 @@ public class Test {
 		JButton b0 = new JButton("0");
 
 
-		b1.setBounds(30,  400, 190, 90);
-		b2.setBounds(200, 400, 190, 90);
-		b3.setBounds(400, 400, 190, 90);
-		b4.setBounds(30,  500, 190, 90);
-		b5.setBounds(200, 500, 190, 90);
-		b6.setBounds(400, 500, 190, 90);
-		b7.setBounds(30,  600, 190, 90);
-		b8.setBounds(200, 600, 190, 90);
-		b9.setBounds(400, 600, 190, 90);
-		b0.setBounds(30,  700, 190, 90);
+		b1.setBounds(30,  400, 170, 70);
+		b2.setBounds(200, 400, 170, 70);
+		b3.setBounds(400, 400, 170, 70);
+		b4.setBounds(30,  500, 170, 70);
+		b5.setBounds(200, 500, 170, 70);
+		b6.setBounds(400, 500, 170, 70);
+		b7.setBounds(30,  600, 170, 70);
+		b8.setBounds(200, 600, 170, 70);
+		b9.setBounds(400, 600, 170, 70);
+		b0.setBounds(30,  700, 170, 70);
 		
 		// b1.addActionListener(new ActionListener() {
 			
