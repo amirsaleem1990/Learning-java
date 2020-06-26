@@ -9,11 +9,11 @@ import javax.swing.JTextField;
 public class Test {
 	public static void main(String[] args){
 		JFrame f = new JFrame("My first Java GUI program");
-		JTextField tf = new JTextField();
 
 		f.setSize(630,900);
-		
+
 		int B1, B2, B3, B4, B5, B6, B7, B8, B9, B0;
+
 
 		JButton b_add = new JButton("+");
 		JButton b_minus = new JButton("-");
@@ -31,6 +31,9 @@ public class Test {
 		JButton b9 = new JButton("9");
 		JButton b0 = new JButton("0");
 
+		JTextField tf = new JTextField();
+
+		tf.setBounds      (30,  200, 570, 90);
 		b_add.setBounds   (30,  300, 135, 90); 
 		b_minus.setBounds (180, 300, 135, 90); 
 		b_devide.setBounds(330, 300, 135, 90); 
