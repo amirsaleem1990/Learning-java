@@ -9,9 +9,13 @@ public class Test {
 		JButton b1 = new JButton("Show Text");
 		JButton b2 = new JButton("Clear Text");
 
-		b1.setBounds(x=100, y=200, width=100, height=30);
+		b1.setBounds(100, 200, 100, 30);
+		b1.setBounds(100, 150, 100, 30);
 
+		f.add(b1);
+		f.add(b2);
 
+		f.setLayout(null);
 		f.setLocationRelativeTo(null);
 		f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
 		f.setVisible(true);
