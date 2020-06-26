@@ -1,8 +1,4 @@
 // Graphical User Interface
-import javax.swing.*;
-import java.awt.event.*;
-
-
 import javax.swing.JFrame;
 
 import java.awt.event.ActionEvent;
@@ -18,9 +14,6 @@ public class Test {
 		JFrame f = new JFrame("Calculator");
 
 		f.setSize(630,900);
-
-		int B1, B2, B3, B4, B5, B6, B7, B8, B9, B0;
-
 
 		JButton b_add = new JButton("+");
 		JButton b_minus = new JButton("-");
@@ -55,9 +48,6 @@ public class Test {
 		b8.setBounds      (230, 600, 180, 90);
 		b9.setBounds      (430, 600, 180, 90);
 		b0.setBounds      (30,  700, 580, 90);
-
-		Clicklistener click= new Clicklistener();
-		b1.addActionListener(click);
 
 		// b1.addActionListener(new ActionListener() {
 			
@@ -105,14 +95,5 @@ public class Test {
 		// ye bohot zaroori h, agar ye nahi ho ga to program chaly ga to sahi magar kuch bhi show nahi ho ga. 
 		f.setVisible(true); 
 
-	}
-
-	private class Clicklistener implements ActionListener{
-		public void actionPerformed(ActionEvent e){
-			// if (e.getSource() == button1){
-				// button1.setText("The button has been clicked");
-			// }
-			System.out.println(e.getSource());
-		}
 	}
 }
