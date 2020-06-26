@@ -38,7 +38,7 @@ public class Test {
 
 		JTextField tf = new JTextField("");
 		// ------------------
-		Font font1 = new Font("SansSerif", Font.BOLD, 20);
+		Font font1 = new Font("SansSerif", Font.BOLD, 30);
 		// tf.setLocation(5, 5);
 		tf.setSize(150,20);	
 		tf.setFont(font1);
