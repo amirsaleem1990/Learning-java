@@ -33,7 +33,7 @@ public class Test {
 		JButton b9 = new JButton("9");
 		JButton b0 = new JButton("0");
 
-		JTextField tf = new JTextField("Press key 1");
+		JTextField tf = new JTextField("");
 
 		tf.setBounds      (30,  200, 580, 90);
 		b_add.setBounds   (30,  300, 130, 90); 
@@ -55,7 +55,8 @@ public class Test {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				tf.setText(" 1 ");
+				// tf.setText(" 1 ");
+				tf.setText(tf.getText() + "1"); 
 			}
 		});
 
