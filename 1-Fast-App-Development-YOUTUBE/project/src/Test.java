@@ -9,8 +9,8 @@ public class Test {
 		JButton b1 = new JButton("Show Text");
 		JButton b2 = new JButton("Clear Text");
 
-		b1.setBounds(100, 200, 150, 30);
-		b2.setBounds(100, 150, 150, 30);
+		b1.setBounds(100, 150, 150, 30);
+		b2.setBounds(100, 200, 150, 30);
 
 		f.add(b1);
 		f.add(b2);
