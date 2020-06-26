@@ -106,7 +106,7 @@ public class Test {
 			// if (e.getSource() == button1){
 				// button1.setText("The button has been clicked");
 			// }
-			System.out.println(e.getSource())
+			System.out.println(e.getSource());
 		}
 	}
 }
