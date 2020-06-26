@@ -84,6 +84,10 @@ public class Test {
 		f.add(b8);
 		f.add(b9);
 		f.add(b0);
+
+
+		Clicklistener click= new Clicklistener();
+		b1.addActionListener(click);
 		// zaroori h
 		f.setLayout(null); 
 		// hamari GUI center me appear ho gi
