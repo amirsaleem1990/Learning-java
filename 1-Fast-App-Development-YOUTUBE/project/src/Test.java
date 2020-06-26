@@ -8,7 +8,7 @@ import javax.swing.JButton;
 import javax.swing.JTextField;
 public class Test {
 	public static void main(String[] args){
-		JFrame f = new JFrame("My first Java GUI program");
+		JFrame f = new JFrame("Calculator");
 
 		f.setSize(630,900);
 
