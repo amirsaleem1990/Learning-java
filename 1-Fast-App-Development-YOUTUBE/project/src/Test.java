@@ -30,10 +30,10 @@ public class Test {
 		JButton b9 = new JButton("9");
 		JButton b0 = new JButton("0");
 
-		b_add.setBounds   (30,  200, 140, 90); 
-		b_minus.setBounds (180, 200, 140, 90); 
-		b_devide.setBounds(330, 200, 140, 90); 
-		b_mult.setBounds  (480, 200, 140, 90); 
+		b_add.setBounds   (30,  300, 135, 90); 
+		b_minus.setBounds (180, 300, 135, 90); 
+		b_devide.setBounds(330, 300, 135, 90); 
+		b_mult.setBounds  (480, 300, 135, 90); 
 		b1.setBounds      (30,  400, 180, 90);
 		b2.setBounds      (230, 400, 180, 90);
 		b3.setBounds      (430, 400, 180, 90);
