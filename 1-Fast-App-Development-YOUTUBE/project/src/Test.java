@@ -97,10 +97,8 @@ public class Test {
 		f.setVisible(true); 
 
 	}
-	public String append_value(JButton button, char chr){
-
+	public void append_value(JButton button, char chr){
 		button.addActionListener(new ActionListener() {
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				tf.setText(tf.getText() + chr); 
 			}
