@@ -9,7 +9,7 @@ public class Test {
 		JButton b1 = new JButton("Show Text");
 		JButton b2 = new JButton("Clear Text");
 
-
+		b1.setBounds(x=100, y=200, width=100, height=30);
 
 
 		f.setLocationRelativeTo(null);
