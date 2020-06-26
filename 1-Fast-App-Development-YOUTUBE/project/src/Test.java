@@ -1,6 +1,7 @@
 // Graphical User Interface
 import javax.swing.JFrame;
 import javax.swing.JButton;
+import javax.swing.JTextField;
 public class Test {
 	public static void main(String[] args){
 		JFrame f = new JFrame("My first Java GUI program");
@@ -8,6 +9,8 @@ public class Test {
 
 		JButton b1 = new JButton("Show Text");
 		JButton b2 = new JButton("Clear Text");
+
+		JTextField t1 = new JTextField();
 
 		b1.setBounds(100, 150, 150, 30);
 		b2.setBounds(100, 200, 150, 30);
