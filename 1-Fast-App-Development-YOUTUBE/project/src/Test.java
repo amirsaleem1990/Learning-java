@@ -1,4 +1,8 @@
 // Graphical User Interface
+import javax.swing.*;
+import java.awt.event.*;
+
+
 import javax.swing.JFrame;
 
 import java.awt.event.ActionEvent;
@@ -52,6 +56,7 @@ public class Test {
 		b9.setBounds      (430, 600, 180, 90);
 		b0.setBounds      (30,  700, 580, 90);
 
+		Clicklistener click= new Clicklistener();
 		b1.addActionListener(click);
 
 		// b1.addActionListener(new ActionListener() {
