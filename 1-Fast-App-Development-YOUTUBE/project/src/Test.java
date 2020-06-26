@@ -13,6 +13,8 @@ public class Test {
 		
 		JFrame f = new JFrame("Calculator");
 
+		String[] msg_ = "";
+
 		f.setSize(630,900);
 
 		JButton b_add = new JButton("+");
@@ -31,7 +33,7 @@ public class Test {
 		JButton b9 = new JButton("9");
 		JButton b0 = new JButton("0");
 
-		JTextField tf = new JTextField();
+		JTextField tf = new JTextField("Press key 1");
 
 		tf.setBounds      (30,  200, 580, 90);
 		b_add.setBounds   (30,  300, 130, 90); 
@@ -49,14 +51,14 @@ public class Test {
 		b9.setBounds      (430, 600, 180, 90);
 		b0.setBounds      (30,  700, 580, 90);
 
-		// b1.addActionListener(new ActionListener() {
+		b1.addActionListener(new ActionListener() {
 			
-		// 	@Override
-		// 	public void actionPerformed(ActionEvent arg0) {
-		// 		t1.setText("Welcome to my first GUI java program");
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println(t1.getText());
 				
-		// 	}
-		// });
+			}
+		});
 
 		// b2.addActionListener(new ActionListener() {
 
