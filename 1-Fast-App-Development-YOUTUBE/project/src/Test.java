@@ -2,6 +2,8 @@
 import javax.swing.JFrame;
 public class Test {
 	public static void main(String[] args){
-		System.out.println("OK");
+		Jframe f = new Jframe();
+		f.setSize(600,600);
+		f.setVisible(true);
 	}
 }
