@@ -12,7 +12,7 @@ public class Test {
 
 		f.setSize(600,900);
 
-		private int B1, B2, B3, B4, B5, B6, B7, B8, B9, B0;
+		int B1, B2, B3, B4, B5, B6, B7, B8, B9, B0;
 
 		JButton b1 = new JButton("1");
 		JButton b2 = new JButton("2");
