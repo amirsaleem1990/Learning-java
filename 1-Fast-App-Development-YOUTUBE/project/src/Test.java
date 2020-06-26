@@ -51,11 +51,97 @@ public class Test {
 		b9.setBounds      (430, 600, 180, 90);
 		b0.setBounds      (30,  700, 580, 90);
 
-		b1.addActionListener(new ActionListener() {
-			
+		b1.addActionListener(new ActionListener() {			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				tf.setText(tf.getText() + "1"); 
+			}
+		});
+
+		b2.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "2"); 
+			}
+		});
+		b3.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "3"); 
+			}
+		});
+
+		b4.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "4"); 
+			}
+		});
+
+		b5.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "5"); 
+			}
+		});
+
+		b6.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "6"); 
+			}
+		});
+
+		b7.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "7"); 
+			}
+		});
+
+		b8.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "8"); 
+			}
+		});
+
+		b9.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "9"); 
+			}
+		});
+
+		b0.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "0"); 
+			}
+		});
+
+		b_add.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "+"); 
+			}
+		});
+		b_minus.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "-"); 
+			}
+		});
+		b_devide.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "/"); 
+			}
+		});
+		b_mult.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "*"); 
 			}
 		});
 
