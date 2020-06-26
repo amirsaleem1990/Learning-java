@@ -4,7 +4,7 @@ import java.awt.event.*;
 public class Test extends JFrame{
 
 	public static void main(String[] args) {
-		new Clickprogram();
+		Clickprogram();
 	}
 	    
 	JButton button1;
