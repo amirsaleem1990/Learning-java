@@ -14,9 +14,11 @@ public class Test {
 
 		b1.setBounds(100, 150, 150, 30);
 		b2.setBounds(100, 200, 150, 30);
-
+		t1.setBounds(100, 100, 150, 30);
+	
 		f.add(b1);
 		f.add(b2);
+		f.add(t1);
 
 		f.setLayout(null);
 		f.setLocationRelativeTo(null);
