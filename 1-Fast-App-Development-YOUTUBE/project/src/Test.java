@@ -13,7 +13,7 @@ public class Test {
 		
 		JFrame f = new JFrame("Calculator");
 
-		String[] msg_ = "";
+		String[] msg_ = "A";
 
 		f.setSize(630,900);
 
@@ -55,7 +55,7 @@ public class Test {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println(t1.getText());
+				tf.setText("1");
 				
 			}
 		});
