@@ -14,6 +14,11 @@ public class Test {
 
 		int B1, B2, B3, B4, B5, B6, B7, B8, B9, B0;
 
+		JButton b_add = new JButton("+");
+		JButton b_minus = new JButton("-");
+		JButton b_devide = new JButton("/");
+		JButton b_mult = new JButton("*");
+
 		JButton b1 = new JButton("1");
 		JButton b2 = new JButton("2");
 		JButton b3 = new JButton("3");
@@ -25,7 +30,10 @@ public class Test {
 		JButton b9 = new JButton("9");
 		JButton b0 = new JButton("0");
 
-
+		b_add.setBounds(30, 200, 150, 90); 
+		b_minus.setBounds(180, 200,150 , 90); 
+		b_devide.setBounds(330, 200, 150, 90); 
+		b_mult.setBounds(480, 200, 150, 90); 
 		b1.setBounds(30,  400, 180, 90);
 		b2.setBounds(230, 400, 180, 90);
 		b3.setBounds(430, 400, 180, 90);
@@ -56,6 +64,10 @@ public class Test {
 
 
 
+		f.add(b_add);
+		f.add(b_minus);
+		f.add(b_devide);
+		f.add(b_mult);
 		f.add(b1);
 		f.add(b2);
 		f.add(b3);
