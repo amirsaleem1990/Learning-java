@@ -51,21 +51,14 @@ public class Test {
 		b9.setBounds      (430, 600, 180, 90);
 		b0.setBounds      (30,  700, 580, 90);
 
-		// b1.addActionListener(new ActionListener() {
+		b1.addActionListener(new ActionListener() {
 			
-		// 	@Override
-		// 	public void actionPerformed(ActionEvent arg0) {
-		// 		tf.setText(tf.getText() + "1"); 
-		// 	}
-		// });
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(tf.getText() + "1"); 
+			}
+		});
 
-		// b2.addActionListener(new ActionListener() {
-
-		// 	@Override
-		// 	public void actionPerformed(ActionEvent arg0) {
-		// 		t1.setText("");
-		// 	}
-		// });
 
 
 		f.add(tf);
@@ -96,12 +89,5 @@ public class Test {
 		// ye bohot zaroori h, agar ye nahi ho ga to program chaly ga to sahi magar kuch bhi show nahi ho ga. 
 		f.setVisible(true); 
 
-	}
-	public void append_value(JButton button, char chr){
-		button.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				tf.setText(tf.getText() + chr); 
-			}
-		});
 	}
 }
