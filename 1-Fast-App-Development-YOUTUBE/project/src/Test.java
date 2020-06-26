@@ -41,10 +41,10 @@ public class Test {
 		f.add(b2);
 		f.add(t1);
 
-		f.setLayout(null);
-		f.setLocationRelativeTo(null);
-		f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
-		f.setVisible(true);
+		f.setLayout(null); // zaroori h
+		f.setLocationRelativeTo(null); // hamari GUI center me appear ho gi
+		f.setDefaultCloseOperation(f.EXIT_ON_CLOSE); // program mouse sy close sy krny sy terminate bhi ho jay ga, is line k bager agar ham mouse k zarye sy GUI band karen gy to wo band to ho jay gi magar program terminate nahi ho ga.
+		f.setVisible(true); // ye bohot zaroori h, agar ye nahi ho ga to program chaly ga to sahi magar kuch bhi show nahi ho ga.
 
 	}
 }
