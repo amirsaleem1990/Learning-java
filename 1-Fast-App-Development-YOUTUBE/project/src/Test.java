@@ -37,11 +37,10 @@ public class Test {
 		JButton b0 = new JButton("0");
 
 		JTextField tf = new JTextField("");
-		// ------------------
+		
 		Font font1 = new Font("SansSerif", Font.BOLD, 50);
 		tf.setFont(font1);
-		// ------------------
-
+		
 		tf.setBounds      (30,  200, 580, 90);
 		b_add.setBounds   (30,  300, 130, 90); 
 		b_minus.setBounds (180, 300, 130, 90); 
