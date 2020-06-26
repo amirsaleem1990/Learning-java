@@ -33,11 +33,11 @@ public class Test {
 
 		JTextField tf = new JTextField();
 
-		tf.setBounds      (30,  200, 570, 90);
-		b_add.setBounds   (30,  300, 131, 90); 
-		b_minus.setBounds (180, 300, 131, 90); 
-		b_devide.setBounds(330, 300, 131, 90); 
-		b_mult.setBounds  (480, 300, 131, 90); 
+		tf.setBounds      (30,  200, 580, 90);
+		b_add.setBounds   (30,  300, 130, 90); 
+		b_minus.setBounds (180, 300, 130, 90); 
+		b_devide.setBounds(330, 300, 130, 90); 
+		b_mult.setBounds  (480, 300, 130, 90); 
 		b1.setBounds      (30,  400, 180, 90);
 		b2.setBounds      (230, 400, 180, 90);
 		b3.setBounds      (430, 400, 180, 90);
