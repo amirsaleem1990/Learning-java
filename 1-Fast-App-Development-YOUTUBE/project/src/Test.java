@@ -9,9 +9,9 @@ import javax.swing.JTextField;
 public class Test {
 	public static void main(String[] args){
 		JFrame f = new JFrame("My first Java GUI program");
+		JTextField tf = new JTextField();
 
 		f.setSize(630,900);
-		JTextField tf = new JTextField();
 		
 		int B1, B2, B3, B4, B5, B6, B7, B8, B9, B0;
 
