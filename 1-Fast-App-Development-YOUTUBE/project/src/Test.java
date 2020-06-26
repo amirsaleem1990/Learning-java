@@ -13,7 +13,7 @@ public class Test {
 		
 		JFrame f = new JFrame("Calculator");
 
-		String[] msg_ = "A";
+		String[] msg_ = new String[3];
 
 		f.setSize(630,900);
 
