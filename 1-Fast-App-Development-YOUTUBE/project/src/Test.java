@@ -9,16 +9,32 @@ import javax.swing.JTextField;
 public class Test {
 	public static void main(String[] args){
 		JFrame f = new JFrame("My first Java GUI program");
-		f.setSize(600,600);
+		f.setSize(600,900);
 
-		JButton b1 = new JButton("Show Text");
-		JButton b2 = new JButton("Clear Text");
+		private int B1, B2, B3, B4, B5, B6, B7, B8, B9, B0
 
-		JTextField t1 = new JTextField();
+		JButton b1 = new JButton("1");
+		JButton b2 = new JButton("2");
+		JButton b3 = new JButton("3");
+		JButton b4 = new JButton("4");
+		JButton b5 = new JButton("5");
+		JButton b6 = new JButton("6");
+		JButton b7 = new JButton("7");
+		JButton b8 = new JButton("8");
+		JButton b9 = new JButton("9");
+		JButton b9 = new JButton("0");
 
-		b1.setBounds(100, 150, 150, 30);
-		b2.setBounds(100, 200, 150, 30);
-		t1.setBounds(100, 100, 250, 30);
+
+		b1.setBounds(0,   400, 50, 30);
+		b2.setBounds(200, 400, 50, 30);
+		b3.setBounds(400, 400, 50, 30);
+		b4.setBounds(0,   500, 50, 30);
+		b5.setBounds(200, 500, 50, 30);
+		b6.setBounds(400, 500, 50, 30);
+		b7.setBounds(0,   600, 50, 30);
+		b8.setBounds(200, 600, 50, 30);
+		b9.setBounds(400, 600, 50, 30);
+		b0.setBounds(0,   );
 		
 		b1.addActionListener(new ActionListener() {
 			
@@ -36,6 +52,8 @@ public class Test {
 				t1.setText("");
 			}
 		});
+
+
 
 		f.add(b1);
 		f.add(b2);
