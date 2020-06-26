@@ -55,8 +55,7 @@ public class Test {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				tf.setText("88");
-				
+				tf.setText(" 1 ");
 			}
 		});
 
