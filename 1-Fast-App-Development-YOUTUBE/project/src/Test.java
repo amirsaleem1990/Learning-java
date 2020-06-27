@@ -107,12 +107,11 @@ public class Test {
 
 			String o_2 = list.get(i+1).toString(); 
 			double operand_2 = Double.valueOf(o_2).doubleValue();
-
+			if (i != 1){
+				operand_1 = 0;
+			}
 			System.out.println("operand_1: " + operand_1 + "\noperand_2: " + operand_2);
 			if (list.get(i).equals(Character.toString('+'))){
-				if (i != 1){
-					operand_1 = 0;
-				}
 				total += (operand_1 + operand_2);
 			}else{
 				total += (operand_1 - operand_2);
