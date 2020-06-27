@@ -63,7 +63,7 @@ public class Test{
 
 		JTextField tf = new JTextField("");
 		
-		Font font1 = new Font("SansSerif", Font.BOLD, 30);
+		Font font1 = new Font("SansSerif", Font.BOLD, 50);
 		tf.setFont(font1);
 		
 		tf.setBounds      (30,  100, 580, 90);
@@ -194,7 +194,7 @@ public class Test{
 				String ans = tf.getText();
 				String ans_2 = String.valueOf(eval_math_expression(ans));
 				if (ans_2.equals("0.8")){
-					tf.setText("my sweety AYESHOO!  I LOVE U");
+					tf.setText("my sweety AYESHOO! I LOVE U");
 				}else{
 					tf.setText(ans + " = " + ans_2);
 				}
