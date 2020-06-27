@@ -95,6 +95,9 @@ public class Test {
 			}
 		}
 		System.out.println(list);
+		for (int i=1; i<list.length; i=i+2){
+			System.out.println(list[i]);
+		}
 		// System.out.println(sum);
 
 		// for(int i=0; i<array_2.length; i++){
