@@ -100,6 +100,8 @@ public class Test {
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
 
+			System.out.println("total: " + total	);
+
 			String o_1 = list.get(i-1).toString(); 
 			double operand_1 = Double.valueOf(o_1).doubleValue();
 
@@ -108,12 +110,12 @@ public class Test {
 
 			System.out.println("operand_1: " + operand_1 + "\noperand_2: " + operand_2);
 			if (list.get(i).equals(Character.toString('+'))){
-				System.out.println("____________");
 				total += (operand_1 + operand_2);
 			}else{
 				total += (operand_1 - operand_2);
 			}
 			System.out.println("total: " + total	);
+			System.out.println("_____________________");
 		}
 		// System.out.println(total);
 
