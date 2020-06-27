@@ -180,10 +180,10 @@ public class Test {
 			    ScriptEngineManager mgr = new ScriptEngineManager();
 			    ScriptEngine engine = mgr.getEngineByName("JavaScript");
 			    String ans = tf.getText();
-			    // System.out.println(engine.eval(ans));
-			    double d = engine.eval(ans);
+			    System.out.println(engine.eval("5*3+2"));
+			    // double d = engine.eval(ans);
 			    // tf.setText(d);
-			    System.out.println(d);
+			    // System.out.println(d);	
 			}
 		});
 
