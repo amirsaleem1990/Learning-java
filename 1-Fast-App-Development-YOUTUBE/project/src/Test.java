@@ -17,7 +17,6 @@ public class Test {
 					arry_filled += 1;
 				}
 				array[arry_filled] = Character.toString(character);
-				// temp_ = "";
 				arry_filled += 1;
 			}
 			else{
