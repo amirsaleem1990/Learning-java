@@ -1,7 +1,8 @@
 public class Test {
 	public static void main(String[] args) {
 		String ans = "55/22+3/88+0-9";
-		String[] array = new String[10];
+		// String[] array = new String[10];
+		ArrayList<String> LIST = new ArrayList<>();
 		String temp_ = "";
 		for (int i=0; i<ans.length(); i++) {
 			char character = ans.charAt(i);
@@ -11,9 +12,9 @@ public class Test {
 				character == '/' ){
 				if (temp_.length() > 1){
 					System.out.println("OK");
-					array[array.length+1] = temp_;
+					LIST.add();
 				}
-				array[array.length+1] =  (String) character;
+				LIST.add(character);
 			}else{
 				temp_ += character;
 			}
