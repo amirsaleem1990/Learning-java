@@ -6,7 +6,7 @@ public class Test {
 		// String ans = "55/22+3/88+0*99";
 		// String[] array = new String[11];
 		String ans = "3+1-4/2+3*4-3";
-		String[] array = new String[13];
+		String[] array = new String[ans.length()];
 		int arry_filled = 0;
 		String temp_ = "";
 		for (int i=0; i<ans.length(); i++) {
