@@ -41,21 +41,24 @@ public class Test {
 					array_2_filled += 1;
 			}
 		}
-		for (int i=1; i<array.length; i=i+2){
-			// System.out.println(array[i]);
-			if (array[i].equals(Character.toString('+')) ||
-				array[i].equals(Character.toString('-'))){
-					array_2[array_2_filled] = i;
-					array_2_filled += 1;
-			}
-		}
-		String sum = "";
 		for (int i=0; i<array_2.length; i++){
-			// System.out.println(array_2[i]);
-			// sum += array_2[i-1] + array_2[i] + array_2[i+1] + "\n";
-			sum += array[array_2[i]-1] + array[array_2[i]] + array[array_2[i]+1] + "\n";
+			System.out.println(array_2[i]);
 		}
-		System.out.println(sum);
+		// for (int i=1; i<array.length; i=i+2){
+		// 	// System.out.println(array[i]);
+		// 	if (array[i].equals(Character.toString('+')) ||
+		// 		array[i].equals(Character.toString('-'))){
+		// 			array_2[array_2_filled] = i;
+		// 			array_2_filled += 1;
+		// 	}
+		// }
+		// String sum = "";
+		// for (int i=0; i<array_2.length; i++){
+		// 	// System.out.println(array_2[i]);
+		// 	// sum += array_2[i-1] + array_2[i] + array_2[i+1] + "\n";
+		// 	sum += array[array_2[i]-1] + array[array_2[i]] + array[array_2[i]+1] + "\n";
+		// }
+		// System.out.println(sum);
 	}
 }
 
