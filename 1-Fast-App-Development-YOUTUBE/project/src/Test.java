@@ -67,6 +67,7 @@ public class Test {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
 					double sum = o1  / o2;
+					System.out.println(sum);
 					// System.out.println(x);
 					System.out.println(list);
 					list.remove(x-removed);
@@ -81,6 +82,7 @@ public class Test {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
 					double sum =  o1  * o2;
+					System.out.println(sum);
 					// System.out.println(x);
 					System.out.println(list);
 					list.remove(x-removed);
