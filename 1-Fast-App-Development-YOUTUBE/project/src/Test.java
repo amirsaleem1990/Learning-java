@@ -246,8 +246,6 @@ public class Test{
 	public static double eval_math_expression(String ans){
 
 		String command = "/home/amir/py " + ans;
-	    Process process = Runtime.getRuntime().exec(command);
-
 	    try {
 		    Process process = Runtime.getRuntime().exec(command);
 		 
