@@ -192,8 +192,8 @@ public class Test{
 			@Override		
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
-				ans = String.valueOf(eval_math_expression(ans));
-				tf.setText(ans);
+				ans_2 = String.valueOf(eval_math_expression(ans));
+				tf.setText(ans + " = " + ans_2);
 			}
 		});
 
