@@ -63,7 +63,7 @@ public class Test{
 
 		JTextField tf = new JTextField("");
 		
-		Font font1 = new Font("SansSerif", Font.BOLD, 50);
+		Font font1 = new Font("SansSerif", Font.BOLD, 30);
 		tf.setFont(font1);
 		
 		tf.setBounds      (30,  100, 580, 90);
