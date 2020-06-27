@@ -3,10 +3,10 @@ import java.util.ArrayList;
 import java.util.List;
 public class Test {
 	public static void main(String[] args) {
-		String ans = "55/22+3/88+0*99";
-		String[] array = new String[11];
-		// String ans = "2+4/3+2";
-		// String[] array = new String[7];
+		// String ans = "55/22+3/88+0*99";
+		// String[] array = new String[11];
+		String ans = "3+1-4/2+3*4-3";
+		String[] array = new String[13];
 		int arry_filled = 0;
 		String temp_ = "";
 		for (int i=0; i<ans.length(); i++) {
