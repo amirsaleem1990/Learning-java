@@ -5,7 +5,7 @@ import javax.script.ScriptException;
 public class Test {
   public static void main(String[] args) throws ScriptException {
     ScriptEngineManager mgr = new ScriptEngineManager();
-    ScriptEngine engine = mgr.getEngineByName("JavaScript");
+    ScriptEngine engine = mgr.getEngineByName("js");
     String ans = "5/2*3";
     System.out.println(engine.eval(ans));
     } 
