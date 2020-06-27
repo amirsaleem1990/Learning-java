@@ -13,7 +13,7 @@ public class Test {
 					System.out.println("OK");
 					array[array.length+1] = temp_;
 				}
-				array[array.length+1] =  character;
+				array[array.length+1] =  (String) character;
 			}else{
 				temp_ += character;
 			}
