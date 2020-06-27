@@ -180,6 +180,13 @@ public class Test{
 			}
 		});
 
+		b_clear.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				tf.setText(""); 
+			}
+		});
+
 
 		b_ans.addActionListener(new ActionListener() {	
 			@Override		
