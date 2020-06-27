@@ -47,8 +47,8 @@ public class Test {
 				arry_2_filled += 1;
 			}
 		}
-		for (int iii : array_2){
-			System.out.println(iii);
+		for (int i=0; i<arry_2.length; i++){
+			System.out.println(arry_2[i]);
 		}
 
 
