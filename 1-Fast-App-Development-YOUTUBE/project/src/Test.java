@@ -181,7 +181,7 @@ public class Test {
 			@Override		
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
-				String ans_ = prepare_(ans);
+				double ans_ = prepare_(ans);
 				System.out.println(ans_);
 				// tf.setText(result_);
 
@@ -227,8 +227,8 @@ public class Test {
 		f.setVisible(true); 
 
 	}
-	public String prepare_(String x){
-		Object result_ = engine.eval(x);
+	public double prepare_(String x){
+		double result_ = engine.eval(x);
 		return result_;
 	}
 }
