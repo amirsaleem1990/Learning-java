@@ -180,7 +180,7 @@ public class Test {
 			Object result_ = engine.eval(ans);
 			public void actionPerformed(ActionEvent arg0) {
 				System.out.println(result_);
-				tf.setText(result_);
+				// tf.setText(result_);
 
 				// System.out.println(result_);
 				// Object result = engine.eval(ans);
