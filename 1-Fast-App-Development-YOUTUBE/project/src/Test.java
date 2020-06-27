@@ -95,8 +95,10 @@ public class Test {
 			}
 		}
 		// System.out.println(list.get(0));
-		System.out.println(list.size());
-		// System.out.println(sum);
+		// System.out.println(list.size());
+		for (int i=1; i<list.size(); i=i+2){
+			System.out.println(list.get(i));
+		}
 
 		// for(int i=0; i<array_2.length; i++){
 		// 	int x = array_2[i];
