@@ -11,15 +11,16 @@ public class Test {
 				character == '/' ){
 					// System.out.println(character);
 				if (temp_.length() > 1){
-					array[array.length+1] = temp_;
+					System.out.println("OK");
+					// array[array.length+1] = "amir";
 				}
 				// array[array.length+1] = (String) character;
 			// }else{
 			// 	temp_ += character;
 			}
 		}
-		for (int i=0; i<array.length; i++){
-			System.out.println(array[i]);
-		}
+		// for (int i=0; i<array.length; i++){
+			// System.out.println(array[i]);
+		// }
 	}
 }
