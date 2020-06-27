@@ -15,7 +15,7 @@ public class Test {
 			// }else{
 			// 	temp_ += ans.charAt(i);
 			// }
-			System.out.println(ans.charAt(i));
+			System.out.println(ans.charAt(i) == "5");
 		}
 	}
 }
