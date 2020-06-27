@@ -15,9 +15,6 @@ import javax.script.ScriptException;
 
 public class Test {
 	public static void main(String[] args)  {
-		
-		ScriptEngineManager mgr = new ScriptEngineManager();
-		ScriptEngine engine = mgr.getEngineByName("js"); 
 
 		JFrame f = new JFrame("Calculator");
 
@@ -228,6 +225,8 @@ public class Test {
 
 	}
 	public double prepare_(String x){
+		ScriptEngineManager mgr = new ScriptEngineManager();
+		ScriptEngine engine = mgr.getEngineByName("js"); 
 		double result_ = engine.eval(x);
 		return result_;
 	}
