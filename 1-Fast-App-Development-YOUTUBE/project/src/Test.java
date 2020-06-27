@@ -58,7 +58,6 @@ public class Test {
 		// System.out.println(list);
 		int removed = 0;
 		for (int i=0; i<array_2.length; i++){
-			double sum = 0;
 			int x = array_2[i];
 			if (x > 0){
 				System.out.println("x        : " + x);
@@ -67,7 +66,7 @@ public class Test {
 				if (array[x].equals(Character.toString('/'))) {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
-					sum += o1  / o2;
+					double sum = o1  / o2;
 					// System.out.println(x);
 					System.out.println(list);
 					list.remove(x-removed);
@@ -81,7 +80,7 @@ public class Test {
 				}else if(array[x].equals(Character.toString('*'))){
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
-					sum += o1  * o2;
+					double sum =  o1  * o2;
 					// System.out.println(x);
 					System.out.println(list);
 					list.remove(x-removed);
