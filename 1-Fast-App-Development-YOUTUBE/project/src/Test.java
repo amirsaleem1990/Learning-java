@@ -46,7 +46,7 @@ public class Test {
 		// List<String> list_ = Arrays.asList(array);
 
 		List list = new ArrayList(Arrays.asList(array));
-		for (int i=0; i<array.length; i++){
+		for (int i=1; i<array.length; i++){
 			list.remove(i);
 		}
 		// list.remove(0);
@@ -74,15 +74,15 @@ public class Test {
 			}
 		}
 
-		for(int i=0; i<array_2.length; i++){
-			int x = array_2[i];
-			if (x>0){
-				System.out.println(list[x-1] + "," + list[x] + "," + list[x+1]);
+		// for(int i=0; i<array_2.length; i++){
+			// int x = array_2[i];
+			// if (x>0){
+				// System.out.println(list[x-1] + "," + list[x] + "," + list[x+1]);
 				// list.remove(x-1);
 				// list.remove(x);
 				// list.remove(x+1);
-			}
-		}
+			// }
+		// }
 		System.out.println(list);
 
 
