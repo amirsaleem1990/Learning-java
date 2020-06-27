@@ -60,7 +60,7 @@ public class Test {
 		int removed = 0;
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i] - removed;
-			System.out.println("x:" + x);			
+			System.out.println("x:" + x + "\narray_2[i]:" + array_2[i]);			
 
 			if (x > 0){
 				if (array[x].equals(Character.toString('/'))) {
