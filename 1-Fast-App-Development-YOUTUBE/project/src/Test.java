@@ -8,6 +8,6 @@ import java.util.Scanner;
 
 public class Test{
 	public static void main(String[] args){
-		Process p = Runtime.getRuntim().exec("command goes here");
+		Process p = Runtime.getRuntim().exec("/home/amir/py 5+6");
 	}
 }
