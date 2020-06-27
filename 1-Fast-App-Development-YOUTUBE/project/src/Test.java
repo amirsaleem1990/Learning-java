@@ -49,14 +49,12 @@ public class Test {
 					array_2_filled += 1;
 			}
 		}
+		String sum = "";
 		for (int i=0; i<array_2.length; i++){
-			System.out.println(array_2[i]);
+			// System.out.println(array_2[i]);
+			sum += array_2[i-1] + array_2[i] + array_2[i+1] + "\n"
 		}
-
-
-
-
-
+		System.out.println(sum);
 	}
 }
 
