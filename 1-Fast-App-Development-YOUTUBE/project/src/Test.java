@@ -11,8 +11,6 @@ public class Test {
 				character == '*'  ||
 				character == '/' ){
 				if (temp_.length() > 1){
-					System.out.println("OK");
-					System.out.println("_____" + array.length);
 					array[arry_filled] = temp_;
 					arry_filled += 1;
 				}
@@ -21,11 +19,10 @@ public class Test {
 			}
 			else{
 				temp_ += Character.toString(character);
-				System.out.println(temp_);
 			}
 		}
-		// for (int i=0; i<array.length; i++){
-			// System.out.println(array[i]);
-		// }
+		for (int i=0; i<array.length; i++){
+			System.out.println(array[i]);
+		}
 	}
 }
