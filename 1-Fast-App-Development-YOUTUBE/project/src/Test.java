@@ -99,9 +99,9 @@ public class Test {
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
 			if (list.get(i).equals(Character.toString('+'))){
-				total += list.get(i-1) + list.get(i+1);
+				total += Double.parseDouble(list.get(i-1)) + Double.parseDouble(list.get(i+1));
 			}else{
-				total += list.get(i-1) - list.get(i+1);
+				total += Double.parseDouble(list.get(i-1)) - Double.parseDouble(list.get(i+1));
 			}
 		}
 		System.out.println(list);
