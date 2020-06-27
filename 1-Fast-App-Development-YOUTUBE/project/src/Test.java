@@ -42,9 +42,9 @@ public class Test {
 			}
 		}
 
-		List<String> list = Arrays.asList(array);
+		List<String> list_ = Arrays.asList(array);
 		// System.out.println(list);
-		list.remove(0);
+		list_.remove(1);
 
 		// double sum = 0;
 
