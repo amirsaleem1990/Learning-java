@@ -13,6 +13,11 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptEngine;
 import javax.script.ScriptException;
 
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class Test extends eval_math_expression{
 	public static void main(String[] args) throws ScriptException {
 
