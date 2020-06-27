@@ -60,8 +60,6 @@ public class Test {
 		int removed = 0;
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i];
-			System.out.println("\narray_2[i]: " + array_2[i] + "\nx: " + x);			
-
 			if (x > 0){
 				if (array[x].equals(Character.toString('/'))) {
 					double o1 = Double.parseDouble(array[x-1]);
