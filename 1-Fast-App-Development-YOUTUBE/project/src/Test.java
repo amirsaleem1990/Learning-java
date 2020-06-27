@@ -194,13 +194,6 @@ public class Test{
 				String ans = tf.getText();
 				ans = String.valueOf(eval_math_expression(ans));
 				tf.setText(ans);
-				// System.out.println(result_);
-				// Object result = engine.eval(ans);
-			    // engine.eval(ans);
-			    // System.out.println(result);
-			    // double d = engine.eval(ans);
-			    // tf.setText(d);
-			    // System.out.println(d);	
 			}
 		});
 
