@@ -192,6 +192,7 @@ public class Test{
 			@Override		
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
+				//Hack: save <ans> to file, then eval(ans) in python, then load it back here as ans, and pas it to next line
 				String ans_2 = String.valueOf(eval_math_expression(ans));
 				tf.setText(ans + " = " + ans_2);
 			}
