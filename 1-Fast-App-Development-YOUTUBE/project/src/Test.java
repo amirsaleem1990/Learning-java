@@ -28,7 +28,7 @@ public class Test {
 		b_devide.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b_mult = new JButton("*");
 		b_mult.setFont(new Font("Arial", Font.PLAIN, 40));
-		JButton b_ans = new JButton("Ans");
+		JButton b_ans = new JButton("Ans.");
 		b_ans.setFont(new Font("Arial", Font.PLAIN, 40));
 
 
@@ -174,10 +174,12 @@ public class Test {
 
 
 		f.add(tf);
+
 		f.add(b_add);
 		f.add(b_minus);
 		f.add(b_devide);
 		f.add(b_mult);
+		f.add(b_ans);
 		f.add(b1);
 		f.add(b2);
 		f.add(b3);
