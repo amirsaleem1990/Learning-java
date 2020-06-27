@@ -179,6 +179,7 @@ public class Test {
 			String ans = tf.getText();
 			String result_ = (String) engine.eval(ans);
 			public void actionPerformed(ActionEvent arg0) {
+				System.out.println(result_);
 				// tf.setText(result_);
 
 				// System.out.println(result_);
