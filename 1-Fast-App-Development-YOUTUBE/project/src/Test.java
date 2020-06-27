@@ -43,7 +43,9 @@ public class Test {
 		}
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i];
-			System.out.println(array[x]);
+			if (x > 0){
+				System.out.println(x);			
+			}
 		}
 		// for (int i=1; i<array.length; i=i+2){
 		// 	// System.out.println(array[i]);
