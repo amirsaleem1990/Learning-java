@@ -247,15 +247,23 @@ public class Test{
 
 		String command = "/home/amir/py " + ans;
 	    Process process = Runtime.getRuntime().exec(command);
-	    BufferedReader reader = new BufferedReader(
-	            new InputStreamReader(process.getInputStream()));
-	    String line;
-	    while ((line = reader.readLine()) != null) {
-	        System.out.println("______" + line);
-	    }
-	 
-	    reader.close();
-	    return Double.valueOf(line).doubleValue();
+
+	    try {
+		    Process process = Runtime.getRuntime().exec(command);
+		 
+		    BufferedReader reader = new BufferedReader(
+		            new InputStreamReader(process.getInputStream()));
+		    String line;
+		    while ((line = reader.readLine()) != null) {
+		        System.out.println(line);
+		    }
+		 
+		    reader.close();
+		 
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
+		return Double.valueOf(line).doubleValue();
 
 	}
 }
