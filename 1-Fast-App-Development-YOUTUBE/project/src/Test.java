@@ -55,21 +55,21 @@ public class Test {
 		Font font1 = new Font("SansSerif", Font.BOLD, 50);
 		tf.setFont(font1);
 		
-		tf.setBounds      (30,  200, 580, 90);
-		b_add.setBounds   (30,  300, 130, 90); 
-		b_minus.setBounds (180, 300, 130, 90); 
-		b_devide.setBounds(330, 300, 130, 90); 
-		b_mult.setBounds  (480, 300, 130, 90); 
-		b1.setBounds      (30,  400, 180, 90);
-		b2.setBounds      (230, 400, 180, 90);
-		b3.setBounds      (430, 400, 180, 90);
-		b4.setBounds      (30,  500, 180, 90);
-		b5.setBounds      (230, 500, 180, 90);
-		b6.setBounds      (430, 500, 180, 90);
-		b7.setBounds      (30,  600, 180, 90);
-		b8.setBounds      (230, 600, 180, 90);
-		b9.setBounds      (430, 600, 180, 90);
-		b0.setBounds      (30,  700, 580, 90);
+		tf.setBounds      (30,  100, 580, 90);
+		b_add.setBounds   (30,  200, 130, 90); 
+		b_minus.setBounds (180, 200, 130, 90); 
+		b_devide.setBounds(330, 200, 130, 90); 
+		b_mult.setBounds  (480, 200, 130, 90); 
+		b1.setBounds      (30,  300, 180, 90);
+		b2.setBounds      (230, 300, 180, 90);
+		b3.setBounds      (430, 300, 180, 90);
+		b4.setBounds      (30,  400, 180, 90);
+		b5.setBounds      (230, 400, 180, 90);
+		b6.setBounds      (430, 400, 180, 90);
+		b7.setBounds      (30,  500, 180, 90);
+		b8.setBounds      (230, 500, 180, 90);
+		b9.setBounds      (430, 500, 180, 90);
+		b0.setBounds      (30,  600, 580, 90);
 
 		b1.addActionListener(new ActionListener() {			
 			@Override
