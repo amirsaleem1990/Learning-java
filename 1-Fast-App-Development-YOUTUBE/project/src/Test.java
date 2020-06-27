@@ -176,10 +176,9 @@ public class Test {
 			}
 		});
 		b_ans.addActionListener(new ActionListener() {			
-			@Override
+			String ans = tf.getText();
+			Object result = engine.eval("45*3/2");
 			public void actionPerformed(ActionEvent arg0) {
-				String ans = tf.getText();
-				Object result = engine.eval("45*3/2");
 				// Object result = engine.eval(ans);
 			    // engine.eval(ans);
 			    // System.out.println(result);
