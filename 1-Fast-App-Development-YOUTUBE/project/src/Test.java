@@ -73,15 +73,16 @@ public class Test {
 				}
 			}
 		}
-
+		
 		for(int i=0; i<array_2.length; i++){
 			int x = array_2[i];
 			if (x>0){
 				System.out.println(x);
 				// System.out.println(list[x-1] + "," + list[x] + "," + list[x+1]);
-				list.remove(x-1);
+				// list.remove(x-1);
 				list.remove(x);
-				list.remove(x+1);
+				// list.remove(x+1);
+				
 			}
 		}
 		System.out.println(list);
