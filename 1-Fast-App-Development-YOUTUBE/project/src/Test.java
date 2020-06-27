@@ -53,7 +53,7 @@ public class Test {
 		// list.remove(1);
 		// list.remove(3);
 		// list.remove(4);
-		System.out.println(list);
+		System.out.println(list.getClass().getSimpleName());
 
 		// double sum = 0;
 
