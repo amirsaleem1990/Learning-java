@@ -18,7 +18,7 @@ public class Test {
 			}
 			else{
 				temp_ += Character.toString(character);
-				// System.out.println(temp_);
+				System.out.println(temp_);
 			}
 		}
 		// for (int i=0; i<array.length; i++){
