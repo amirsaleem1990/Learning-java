@@ -253,7 +253,7 @@ public class Test{
 		    BufferedReader reader = new BufferedReader(
 		            new InputStreamReader(process.getInputStream()));
 		    while ((line = reader.readLine()) != null) {
-		        System.out.println("________" + line);
+		        // System.out.println(line);
 		    }
 		 
 		    reader.close();
@@ -261,7 +261,7 @@ public class Test{
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		// System.out.println(line.length());
+		System.out.println("________" + line);
 		return 4.4;
 		// return line.length();
 
