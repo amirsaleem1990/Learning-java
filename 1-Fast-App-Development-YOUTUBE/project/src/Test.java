@@ -246,12 +246,12 @@ public class Test{
 	public static double eval_math_expression(String ans){
 
 		String command = "/home/amir/py " + ans;
-		String line;
 	    try {
 		    Process process = Runtime.getRuntime().exec(command);
 		 
 		    BufferedReader reader = new BufferedReader(
 		            new InputStreamReader(process.getInputStream()));
+		    String line;
 		    while ((line = reader.readLine()) != null) {
 		        System.out.println("________" + line);
 		    }
@@ -261,7 +261,7 @@ public class Test{
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		return line.length();
+		return reader.readLine().length();
 
 	}
 }
