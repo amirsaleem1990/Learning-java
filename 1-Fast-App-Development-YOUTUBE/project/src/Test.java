@@ -320,6 +320,9 @@ public class Test{
 				}
 			}
 		}
+		if (list.size() == 1){
+			return Double.valueOf(list.get(0).toString()).doubleValue();
+		}
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
 
