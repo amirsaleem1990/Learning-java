@@ -26,6 +26,7 @@ public class Test {
 		JButton b_mult = new JButton("*");
 
 		JButton b1 = new JButton("1");
+		b1.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b2 = new JButton("2");
 		JButton b3 = new JButton("3");
 		JButton b4 = new JButton("4");
