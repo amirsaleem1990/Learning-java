@@ -6,6 +6,7 @@ public class Test {
 		String temp_ = "";
 		for (int i=0; i<ans.length(); i++) {
 			char character = ans.charAt(i);
+			System.out.println(character);
 			if (character == '+'  || 
 				character == '-'  ||
 				character == '*'  ||
@@ -23,8 +24,8 @@ public class Test {
 				temp_ += Character.toString(character);
 			}
 		}
-		for (int i=0; i<array.length; i++){
-			System.out.println(array[i]);
-		}
+		// for (int i=0; i<array.length; i++){
+			// System.out.println(array[i]);
+		// }
 	}
 }
