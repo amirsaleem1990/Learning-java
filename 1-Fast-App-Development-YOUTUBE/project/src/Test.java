@@ -5,7 +5,8 @@ public class Test {
 		// String temp_;
 		for (int i=0; i<ans.length(); i++) {
 			char character = ans.charAt(i);
-			System.out.println(character == '+' || character == '-');
+			System.out.println(character == '+');
+			System.out.println(character);
 			// if (character == "+"	 || 
 				// character == "-"	 ||
 				// character == "*"	 ||
