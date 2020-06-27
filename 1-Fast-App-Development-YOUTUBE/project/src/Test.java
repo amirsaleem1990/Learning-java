@@ -7,7 +7,7 @@ public class Test{
 //		Process process = Runtime.getRuntime ().exec ("/home/amir/py");
 		ProcessBuilder builder = new ProcessBuilder("/home/amir/py");
 		builder.redirectErrorStream(true);
-		Process process = builder.start();
+//		Process process = builder.start();
 		
 		
 	}
