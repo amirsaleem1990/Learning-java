@@ -184,7 +184,7 @@ public class Test{
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
 				System.out.println(ans);
-				ans = eval_math_expression(ans);
+				ans = (String) eval_math_expression(ans);
 				System.out.println(ans);
 				// tf.setText(ans);
 
