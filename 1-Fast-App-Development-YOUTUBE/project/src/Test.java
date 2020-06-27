@@ -44,7 +44,7 @@ public class Test {
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i];
 			if (x > 0){
-				if (array[x]equals(Character.toString('/'))){
+				if (array[x].equals(Character.toString('/'))) {
 					System.out.println("DMI");
 				}			
 			}
