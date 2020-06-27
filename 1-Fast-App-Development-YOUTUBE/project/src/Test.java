@@ -34,20 +34,20 @@ public class Test {
 		int array_2_filled = 0;
 		int[] array_2 = new int[5]; 
 		for (int i=1; i<array.length; i=i+2){
-			// System.out.println(array[i]);
-			if (array[i] == "/" || array[i] == "*"){
-				array_2[array_2_filled] = i;
-				System.out.println(array_2[array_2_filled]);
-				array_2_filled += 1;
-			}
+			System.out.println(array[i]);
+			// if (array[i] == "/" || array[i] == "*"){
+				// array_2[array_2_filled] = i;
+				// System.out.println(array_2[array_2_filled]);
+				// array_2_filled += 1;
+			// }
 		}
-		for (int i=1; i<array.length; i=i+2){
-			// System.out.println(array[i]);
-			if (array[i] == "+" || array[i] == "-"){
-				array_2[array_2_filled] = i;
-				array_2_filled += 1;
-			}
-		}
+		// for (int i=1; i<array.length; i=i+2){
+		// 	// System.out.println(array[i]);
+		// 	if (array[i] == "+" || array[i] == "-"){
+		// 		array_2[array_2_filled] = i;
+		// 		array_2_filled += 1;
+		// 	}
+		// }
 		// for (int i=0; i<array_2.length; i++){
 		// 	System.out.println(array_2[i]);
 		// }
