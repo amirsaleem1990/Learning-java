@@ -88,7 +88,8 @@ public class Test{
 		b7.setBounds      (30,  600, 180, 90);
 		b8.setBounds      (230, 600, 180, 90);
 		b9.setBounds      (430, 600, 180, 90);
-		b0.setBounds      (30,  700, 580, 90);
+		b_dot.setBounds   (30,  700, 180, 90);
+		b0.setBounds      (130, 700, 180, 90);
 
 		b1.addActionListener(new ActionListener() {			
 			@Override
