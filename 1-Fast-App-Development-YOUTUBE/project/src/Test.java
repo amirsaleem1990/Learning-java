@@ -170,7 +170,12 @@ public class Test {
 				tf.setText(tf.getText() + "*"); 
 			}
 		});
-
+		b_ans.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				String ans = tf.getText(); 
+			}
+		});
 
 
 		f.add(tf);
