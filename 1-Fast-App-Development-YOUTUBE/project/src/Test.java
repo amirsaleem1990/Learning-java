@@ -79,7 +79,7 @@ public class Test {
 					removed += 2;
 					System.out.println(list);
 					System.out.println("\n\n");
-					System.out.println(o1 + ", " + o2);
+					// System.out.println(o1 + ", " + o2);
 				}else if(array[x].equals(Character.toString('*'))){
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
@@ -93,12 +93,10 @@ public class Test {
 					removed += 2;
 					System.out.println(list);
 					System.out.println("\n\n");
-					System.out.println(o1 + ", " + o2);
+					// System.out.println(o1 + ", " + o2);
 				}
 			}
 		}
-		// System.out.println(list.get(0));
-		// System.out.println(list.size());
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
 
@@ -108,7 +106,7 @@ public class Test {
 			String o_2 = list.get(i+1).toString(); 
 			double operand_2 = Double.valueOf(o_2).doubleValue();
 
-			// System.out.println("o1: " + operand_1 + "\no2: " + operand_2);
+			System.out.println("o1: " + operand_1 + "\no2: " + operand_2);
 			if (list.get(i).equals(Character.toString('+'))){
 				total += (operand_1 + operand_2);
 			}else{
