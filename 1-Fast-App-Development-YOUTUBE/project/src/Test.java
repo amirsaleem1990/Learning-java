@@ -46,8 +46,10 @@ public class Test {
 			int x = array_2[i];
 			if (x > 0){
 				if (array[x].equals(Character.toString('/'))) {
-					s += (double) array[x-1] / (double) array[x+1];
-					System.out.println(sum);
+					o1 = (double) array[x-1];
+					o2 = (double) array[x+1];
+					// s += (double)  / (double) array[x+1];
+					// System.out.println(sum);
 				}			
 			}
 		}
