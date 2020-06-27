@@ -17,8 +17,8 @@ public class Test {
 	public static void main(String[] args) throws ScriptException {
 		
 		ScriptEngineManager mgr = new ScriptEngineManager();
-		ScriptEngine engine = mgr.getEngineByName("JavaScript"); 
-			    
+		ScriptEngine engine = mgr.getEngineByName("js"); 
+
 		JFrame f = new JFrame("Calculator");
 
 		String[] msg_ = new String[3];
@@ -179,8 +179,9 @@ public class Test {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
+				Object result = engine.eval(ans);
 			    // engine.eval(ans);
-			    // System.out.println();
+			    System.out.println(result);
 			    // double d = engine.eval(ans);
 			    // tf.setText(d);
 			    // System.out.println(d);	
