@@ -57,7 +57,7 @@ public class Test {
 
 		double sum = 0;
 		// System.out.println(list);
-		removed = 0;
+		int removed = 0;
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i];
 			System.out.println("\narray_2[i]: " + array_2[i] + "\nx: " + x);			
@@ -71,7 +71,7 @@ public class Test {
 					list.remove(x-removed);
 					list.remove(x-removed);
 					list.remove(x-1-removed);
-					removed -= 3;
+					removed = removed - 3;
 					System.out.println(list);
 					System.out.println("\n\n");
 					// System.out.println(o1 + ", " + o2);
@@ -85,7 +85,7 @@ public class Test {
 					list.remove(x-removed);
 					list.remove(x-removed);
 					list.remove(x-1-removed);
-					removed -= 3;
+					removed = removed - 3;
 					System.out.println(list);
 					System.out.println("\n\n");
 					// System.out.println(o1 + ", " + o2);
