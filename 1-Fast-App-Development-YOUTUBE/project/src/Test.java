@@ -69,8 +69,8 @@ public class Test {
 					list.remove(x-removed);
 					list.remove(x-removed);
 					list.remove(x-1-removed);
-					removed += 3;
 					list.add(x-removed, sum);
+					removed += 3;
 					System.out.println(list);
 					System.out.println("\n\n");
 					// System.out.println(o1 + ", " + o2);
