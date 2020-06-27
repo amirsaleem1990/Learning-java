@@ -34,12 +34,13 @@ public class Test {
 		int array_2_filled = 0;
 		int[] array_2 = new int[5]; 
 		for (int i=1; i<array.length; i=i+2){
-			System.out.println(array[i]);
-			// if (array[i] == "/" || array[i] == "*"){
+			if (array[i] == "/" || array[i] == "*"){
+				System.out.println(array[i]);
+					
 				// array_2[array_2_filled] = i;
 				// System.out.println(array_2[array_2_filled]);
 				// array_2_filled += 1;
-			// }
+			}
 		}
 		// for (int i=1; i<array.length; i=i+2){
 		// 	// System.out.println(array[i]);
