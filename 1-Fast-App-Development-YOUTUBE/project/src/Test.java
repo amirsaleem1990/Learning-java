@@ -22,6 +22,11 @@ public class Test {
 			else{
 				temp_ += Character.toString(character);
 			}
+			if (temp_.length() > 0){
+				array[arry_filled] = temp_;
+				temp_ = "";
+				arry_filled += 1;
+			}
 		}
 		for (int i=0; i<array.length; i++){
 			System.out.println(array[i]);
