@@ -85,7 +85,7 @@ public class Test {
 					System.out.println(list);
 					list.remove(x-removed);
 					list.remove(x-removed);
-					list.remove(x-removed);
+					list.remove(x-1-removed);
 					removed += 2;
 					list.add(x-removed-1, sum);
 					System.out.println(list);
