@@ -1,3 +1,5 @@
+import java.io.InputStream;
+
 public class Test{
 	public static void main(args[] main){
 		ProcessBuilder builder = new ProcessBuilder("command goes here");
