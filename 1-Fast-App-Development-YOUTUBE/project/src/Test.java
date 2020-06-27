@@ -46,15 +46,15 @@ public class Test {
 		}
 
 		List list = new ArrayList(Arrays.asList(array));
-		System.out.println(list);
+		// System.out.println(list);
 
 		int removed = 0;
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i];
 			if (x > 0){
-				System.out.println("x        : " + x);
-				System.out.println("removed  : " + removed);
-				System.out.println("x-removed: " + (x-removed));
+				// System.out.println("x        : " + x);
+				// System.out.println("removed  : " + removed);
+				// System.out.println("x-removed: " + (x-removed));
 				if (array[x].equals(Character.toString('/'))) {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
@@ -89,7 +89,7 @@ public class Test {
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
 
-			System.out.println("total: " + total	);
+			// System.out.println("total: " + total	);
 
 			String o_1 = list.get(i-1).toString(); 
 			double operand_1 = Double.valueOf(o_1).doubleValue();
@@ -99,15 +99,16 @@ public class Test {
 			if (i != 1){
 				operand_1 = 0;
 			}
-			System.out.println("operand_1: " + operand_1 + "\noperand_2: " + operand_2);
+			// System.out.println("operand_1: " + operand_1 + "\noperand_2: " + operand_2);
 			if (list.get(i).equals(Character.toString('+'))){
 				total += (operand_1 + operand_2);
 			}else{
 				total += (operand_1 - operand_2);
 			}
-			System.out.println("total: " + total	);
-			System.out.println("_____________________");
+			// System.out.println("total: " + total	);
+			// System.out.println("_____________________");
 		}
+			System.out.println("total: " + total	);
 	}
 }
 
