@@ -73,7 +73,7 @@ public class Test{
 		b_devide.setBounds(210, 200, 80, 90); 
 		b_mult.setBounds  (300, 200, 80, 90); 
 		b_ans.setBounds   (390, 200, 80, 90);
-		b_clear.setBounds (470, 200, 80, 90);
+		b_clear.setBounds (480, 200, 80, 90);
 
 		b1.setBounds      (30,  300, 180, 90);
 		b2.setBounds      (230, 300, 180, 90);
@@ -208,6 +208,8 @@ public class Test{
 		f.add(b_devide);
 		f.add(b_mult);
 		f.add(b_ans);
+		f.add(b_clear);
+
 		f.add(b1);
 		f.add(b2);
 		f.add(b3);
