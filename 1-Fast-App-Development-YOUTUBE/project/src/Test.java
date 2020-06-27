@@ -4,12 +4,12 @@ public class Test {
 		String[] array = new String[10];
 		String temp_;
 		for (int i=0; i<ans.length(); i++) {
-			char character = ans.charAt(i);
-			if (character.equals('+')	 || 
-				character.equals('-')	 ||
-				character.equals('*')	 ||
-				character.equals('/')	){
-					System.out.println(character);
+			// char character = ans.charAt(i);
+			if (character == '+'	 || 
+				character == '-'	 ||
+				character == '*'	 ||
+				character == '/'	){
+					System.out.println(ans.charAt(i));
 				// if (temp_.length() > 1){
 			// 		array[array.length+1] = temp_;
 				}
