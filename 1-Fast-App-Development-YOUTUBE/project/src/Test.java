@@ -180,7 +180,7 @@ public class Test {
 				String ans = tf.getText();
 				// Object ans_ = prepare_(ans);
 				// System.out.println(ans_);
-				tf.setText(ans);
+				tf.setText(ans+"amir");
 
 				// System.out.println(result_);
 				// Object result = engine.eval(ans);
