@@ -44,7 +44,7 @@ public class Test {
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i];
 			if (x > 0){
-				System.out.println(x);			
+				System.out.println(array[x]);			
 			}
 		}
 		// for (int i=1; i<array.length; i=i+2){
