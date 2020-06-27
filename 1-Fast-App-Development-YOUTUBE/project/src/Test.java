@@ -255,7 +255,7 @@ public class Test{
 	    }
 	 
 	    reader.close();
-	    return line
+	    return Double.valueOf(line).doubleValue();
 
 	}
 }
