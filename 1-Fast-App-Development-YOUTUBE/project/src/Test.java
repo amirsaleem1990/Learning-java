@@ -45,20 +45,9 @@ public class Test {
 			}
 		}
 
-		// List<String> list_ = Arrays.asList(array);
-
 		List list = new ArrayList(Arrays.asList(array));
 		System.out.println(list);
-		// for (int i=0; i<array.length; i++){
-			// list.remove(i);
-		// }
-		// list.remove(0);
-		// list.remove(1);
-		// list.remove(3);
-		// list.remove(4);
-		// System.out.println(list);
 
-		// System.out.println(list);
 		int removed = 0;
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i];
@@ -70,29 +59,29 @@ public class Test {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
 					double sum = o1  / o2;
-					System.out.println(x);
-					System.out.println(list);
+					// System.out.println(x);
+					// System.out.println(list);
 					list.remove(x-removed);
 					list.remove(x-removed);
 					list.remove(x-1-removed);
 					list.add(x-removed-1, sum);
 					removed += 2;
-					System.out.println(list);
-					System.out.println("\n\n");
+					// System.out.println(list);
+					// System.out.println("\n\n");
 					// System.out.println(o1 + ", " + o2);
 				}else if(array[x].equals(Character.toString('*'))){
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
 					double sum =  o1  * o2;
-					System.out.println(x);
-					System.out.println(list);
+					// System.out.println(x);
+					// System.out.println(list);
 					list.remove(x-removed);
 					list.remove(x-removed);
 					list.remove(x-1-removed);
 					list.add(x-removed-1, sum);
 					removed += 2;
-					System.out.println(list);
-					System.out.println("\n\n");
+					// System.out.println(list);
+					// System.out.println("\n\n");
 					// System.out.println(o1 + ", " + o2);
 				}
 			}
@@ -119,37 +108,6 @@ public class Test {
 			System.out.println("total: " + total	);
 			System.out.println("_____________________");
 		}
-		// System.out.println(total);
-
-		// for(int i=0; i<array_2.length; i++){
-		// 	int x = array_2[i];
-		// 	if (x>0){
-		// 		System.out.println(x);
-		// 		// System.out.println(list[x-1] + "," + list[x] + "," + list[x+1]);
-		// 		// list.remove(x-1);
-		// 		// list.remove(x);
-		// 		// list.remove(x+1);
-
-		// 	}
-		// }
-		// System.out.println(list);
-
-
-		// for (int i=1; i<array.length; i=i+2){
-		// 	// System.out.println(array[i]);
-		// 	if (array[i].equals(Character.toString('+')) ||
-		// 		array[i].equals(Character.toString('-'))){
-		// 			array_2[array_2_filled] = i;
-		// 			array_2_filled += 1;
-		// 	}
-		// }
-		// String sum = "";
-		// for (int i=0; i<array_2.length; i++){
-		// 	// System.out.println(array_2[i]);
-		// 	// sum += array_2[i-1] + array_2[i] + array_2[i+1] + "\n";
-		// 	sum += array[array_2[i]-1] + array[array_2[i]] + array[array_2[i]+1] + "\n";
-		// }
-		// System.out.println(sum);
 	}
 }
 
