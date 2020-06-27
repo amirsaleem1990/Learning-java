@@ -80,14 +80,15 @@ public class Test {
 					System.out.println(x);
 					System.out.println(list);
 					list.remove(x);
-					list.remove(x);
-					list.remove(x-1);
+					// list.remove(x);
+					// list.remove(x-1);
 					System.out.println(list);
 					System.out.println("\n\n");
 					// System.out.println(o1 + ", " + o2);
 				}
 			}
 		}
+
 
 		// for(int i=0; i<array_2.length; i++){
 		// 	int x = array_2[i];
