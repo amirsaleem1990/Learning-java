@@ -115,7 +115,7 @@ public class Test {
 				total += (operand_1 - operand_2);
 			}
 		}
-		System.out.println(total);
+		// System.out.println(total);
 
 		// for(int i=0; i<array_2.length; i++){
 		// 	int x = array_2[i];
