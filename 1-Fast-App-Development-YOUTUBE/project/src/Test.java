@@ -61,8 +61,9 @@ public class Test {
 			double sum = 0;
 			int x = array_2[i];
 			if (x > 0){
-				System.out.println("x: " + x);
-				System.out.println("removed: " + removed);
+				System.out.println("x        : " + x);
+				System.out.println("removed  : " + removed);
+				System.out.println("x-removed: " + (x-removed));
 				if (array[x].equals(Character.toString('/'))) {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
