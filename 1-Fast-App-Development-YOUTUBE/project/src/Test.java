@@ -46,7 +46,7 @@ public class Test {
 			int x = array_2[i];
 			if (x > 0){
 				if (array[x].equals(Character.toString('/'))) {
-					s += (array[x-1] / array[x+1]);
+					s += (double) array[x-1] / (double) array[x+1];
 					System.out.println(sum);
 				}			
 			}
