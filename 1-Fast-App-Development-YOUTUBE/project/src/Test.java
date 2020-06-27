@@ -239,6 +239,9 @@ public class Test{
 	// }
 
 	public static double eval_math_expression(String ans){
+		if (ans.equals("27-9-2013")){
+			return "my sweety AYESHOO~ ........ I LOVE U";
+		}
 		System.out.println("_________________\n\n\n\n\n__________________");
 		// String ans = "3+1-4/2+3*4-3";
 		String[] array = new String[ans.length()];
