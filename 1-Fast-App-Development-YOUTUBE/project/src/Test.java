@@ -21,9 +21,13 @@ public class Test {
 		f.setSize(630,900);
 
 		JButton b_add = new JButton("+");
+		b_add.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b_minus = new JButton("-");
+		b_minus.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b_devide = new JButton("/");
+		b_devide.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b_mult = new JButton("*");
+		b_mult.setFont(new Font("Arial", Font.PLAIN, 40));
 
 		JButton b1 = new JButton("1");
 		b1.setFont(new Font("Arial", Font.PLAIN, 40));
