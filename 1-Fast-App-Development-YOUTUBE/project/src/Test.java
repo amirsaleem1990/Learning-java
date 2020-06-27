@@ -175,12 +175,14 @@ public class Test {
 				tf.setText(tf.getText() + "*"); 
 			}
 		});
+
+
 		b_ans.addActionListener(new ActionListener() {	
 			@Override		
-			// String ans = tf.getText();
 			public void actionPerformed(ActionEvent arg0) {
+				String ans = tf.getText();
 				String ans = "45/2";
-				Object result_ = engine.eval(ans);
+
 				System.out.println(result_);
 				// tf.setText(result_);
 
@@ -225,5 +227,9 @@ public class Test {
 		// ye bohot zaroori h, agar ye nahi ho ga to program chaly ga to sahi magar kuch bhi show nahi ho ga. 
 		f.setVisible(true); 
 
+	}
+	public String prepare_(String x){
+		Object result_ = engine.eval(x);
+		return result_;
 	}
 }
