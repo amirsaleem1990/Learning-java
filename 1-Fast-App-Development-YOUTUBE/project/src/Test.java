@@ -41,11 +41,13 @@ public class Test {
 					array_2_filled += 1;
 			}
 		}
+		double sum = 0;
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i];
 			if (x > 0){
 				if (array[x].equals(Character.toString('/'))) {
-					System.out.println("DMI");
+					s += (array[x-1] / array[x+1]);
+					System.out.println(sum);
 				}			
 			}
 		}
