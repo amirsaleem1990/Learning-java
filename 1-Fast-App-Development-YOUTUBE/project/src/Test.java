@@ -176,11 +176,10 @@ public class Test {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
-				System.out.println(ans); 
-			    // ScriptEngineManager mgr = new ScriptEngineManager();
-			    // ScriptEngine engine = mgr.getEngineByName("JavaScript");
-			    // String ans = tf.getText();
-			    // System.out.println(engine.eval("5*3+2"));
+			    ScriptEngineManager mgr = new ScriptEngineManager();
+			    ScriptEngine engine = mgr.getEngineByName("JavaScript");
+				// System.out.println(ans); 
+			    System.out.println(engine.eval(ans));
 			    // double d = engine.eval(ans);
 			    // tf.setText(d);
 			    // System.out.println(d);	
