@@ -181,7 +181,7 @@ public class Test {
 			public void actionPerformed(ActionEvent arg0) {
 				// tf.setText(result_);
 
-				System.out.println(result_);
+				// System.out.println(result_);
 				// Object result = engine.eval(ans);
 			    // engine.eval(ans);
 			    // System.out.println(result);
