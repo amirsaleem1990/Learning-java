@@ -99,19 +99,20 @@ public class Test {
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
 
-			double o1 = Double.valueOf(list.get(i-1).toString()).doubleValue();
-			System.out.println(o1);
-			// double  o2 = Double.parseDouble(list.get(i+1));
-			// double o1 = list.get(i-1);
-			// double o2 = list.get(i+1);
-			// if (list.get(i).equals(Character.toString('+'))){
-				// total +=  + ;
-			// }else{
-				// total += Double.parseDouble(list.get(i-1)) - Double.parseDouble(list.get(i+1));
-			// }
+			String str = list.get(i-1).toString(); 
+			double o1 = Double.valueOf(str).doubleValue();
+
+			String str = list.get(i+1).toString(); 
+			double o2 = Double.valueOf(str).doubleValue();
+
+			if (list.get(i).equals(Character.toString('+'))){
+				total += o1 + o2;
+			}else{
+				total += o1 - o2;
+			}
 		}
-		// System.out.println(list);
-		// System.out.println(total);
+		System.out.println(list);
+		System.out.println(total);
 
 		// for(int i=0; i<array_2.length; i++){
 		// 	int x = array_2[i];
