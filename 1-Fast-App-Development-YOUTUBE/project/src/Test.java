@@ -178,6 +178,7 @@ public class Test {
 		b_ans.addActionListener(new ActionListener() {			
 			String ans = tf.getText();
 			Object result = engine.eval("45*3/2");
+			tf.setText(result);
 			public void actionPerformed(ActionEvent arg0) {
 				// Object result = engine.eval(ans);
 			    // engine.eval(ans);
