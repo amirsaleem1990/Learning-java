@@ -19,7 +19,7 @@ import java.util.List;
 
 
 public class Test{
-	public void main(String[] args) throws ScriptException {
+	public static  void main(String[] args) throws ScriptException {
 
 		JFrame f = new JFrame("Calculator");
 
