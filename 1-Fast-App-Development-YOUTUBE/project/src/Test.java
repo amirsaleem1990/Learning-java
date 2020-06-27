@@ -1,7 +1,7 @@
 public class Test {
 	public static void main(String[] args) {
 		String ans = "55/22+3/88+0-9";
-		String[] array = new String[];
+		String[] array = new String[15];
 		String temp_ = "";
 		for (int i=0; i<ans.length(); i++) {
 			char character = ans.charAt(i);
@@ -18,7 +18,7 @@ public class Test {
 			}
 			else{
 				temp_ += Character.toString(character);
-				System.out.println(temp_);
+				// System.out.println(temp_);
 			}
 		}
 		// for (int i=0; i<array.length; i++){
