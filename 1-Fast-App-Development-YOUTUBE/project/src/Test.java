@@ -19,7 +19,7 @@ import java.util.List;
 
 
 public class Test{
-	public static void main(String[] args) throws ScriptException {
+	public void main(String[] args) throws ScriptException {
 
 		JFrame f = new JFrame("Calculator");
 
@@ -185,6 +185,7 @@ public class Test{
 				String ans = tf.getText();
 				System.out.println(ans);
 				ans = eval_math_expression(ans);
+				System.out.println(ans);
 				// tf.setText(ans);
 
 				// System.out.println(result_);
