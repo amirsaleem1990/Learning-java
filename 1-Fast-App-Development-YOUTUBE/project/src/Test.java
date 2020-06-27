@@ -28,6 +28,9 @@ public class Test {
 		b_devide.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b_mult = new JButton("*");
 		b_mult.setFont(new Font("Arial", Font.PLAIN, 40));
+		JButton b_ans = new JButton("Ans");
+		b_ans.setFont(new Font("Arial", Font.PLAIN, 40));
+
 
 		JButton b1 = new JButton("1");
 		b1.setFont(new Font("Arial", Font.PLAIN, 40));
@@ -56,10 +59,13 @@ public class Test {
 		tf.setFont(font1);
 		
 		tf.setBounds      (30,  100, 580, 90);
-		b_add.setBounds   (30,  200, 130, 90); 
-		b_minus.setBounds (180, 200, 130, 90); 
-		b_devide.setBounds(330, 200, 130, 90); 
-		b_mult.setBounds  (480, 200, 130, 90); 
+
+		b_add.setBounds   (30,  200, 90, 90); 
+		b_minus.setBounds (130, 200, 90, 90); 
+		b_devide.setBounds(230, 200, 90, 90); 
+		b_mult.setBounds  (330, 200, 90, 90); 
+		b_ans.setBounds   (430, 200, 90, 90);
+
 		b1.setBounds      (30,  300, 180, 90);
 		b2.setBounds      (230, 300, 180, 90);
 		b3.setBounds      (430, 300, 180, 90);
