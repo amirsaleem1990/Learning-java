@@ -63,9 +63,10 @@ public class Test {
 				if (array[x].equals(Character.toString('/'))) {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
-					list.remove(x-1);
-					list.remove(x+1);
 					list.remove(x);
+					list.remove(x);
+					// list.remove(x-1);
+					// list.remove(x+1);
 					// list.remove(x+1);
 					// System.out.println(o1 + ", " + o2);
 					sum += o1  / o2;
