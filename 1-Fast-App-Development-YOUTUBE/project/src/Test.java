@@ -64,7 +64,9 @@ public class Test {
 				if (array[x].equals(Character.toString('/'))) {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
+					System.out.println(x);
 					System.out.println(list);
+					list.remove(x);
 					list.remove(x);
 					System.out.println(list);
 					System.out.println("\n\n");
