@@ -177,7 +177,7 @@ public class Test {
 		});
 		b_ans.addActionListener(new ActionListener() {			
 			String ans = tf.getText();
-			Object result_ = engine.eval(ans);
+			String result_ = (String) engine.eval(ans);
 			public void actionPerformed(ActionEvent arg0) {
 				// tf.setText(result_);
 
