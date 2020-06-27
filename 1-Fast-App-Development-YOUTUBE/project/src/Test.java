@@ -4,7 +4,7 @@ public class Test {
 		// String[] array = new String[10];
 		// String temp_;
 		for (int i=0; i<ans.length(); i++) {
-			System.out.println(ans[i]);
+			System.out.println(ans.charAt[i]);
 			// String character = (String) ans.charAt(i);
 			// if (character == "+"	 || 
 				// character == "-"	 ||
