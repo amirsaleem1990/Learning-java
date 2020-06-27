@@ -52,7 +52,8 @@ public class Test {
 		String sum = "";
 		for (int i=0; i<array_2.length; i++){
 			// System.out.println(array_2[i]);
-			sum += array_2[i-1] + array_2[i] + array_2[i+1] + "\n";
+			// sum += array_2[i-1] + array_2[i] + array_2[i+1] + "\n";
+			sum += array[array_2[i]-1] + array[array_2[i]] + array[array_2[i]+1] + "\n";
 		}
 		System.out.println(sum);
 	}
