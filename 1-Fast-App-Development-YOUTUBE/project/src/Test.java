@@ -28,14 +28,23 @@ public class Test {
 		JButton b1 = new JButton("1");
 		b1.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b2 = new JButton("2");
+		b2.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b3 = new JButton("3");
+		b3.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b4 = new JButton("4");
+		b4.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b5 = new JButton("5");
+		b5.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b6 = new JButton("6");
+		b6.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b7 = new JButton("7");
+		b7.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b8 = new JButton("8");
+		b8.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b9 = new JButton("9");
+		b9.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b0 = new JButton("0");
+		b0.setFont(new Font("Arial", Font.PLAIN, 40));
 
 		JTextField tf = new JTextField("");
 		
