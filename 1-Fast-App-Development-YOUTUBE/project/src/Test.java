@@ -1,7 +1,7 @@
 public class Test {
 	public static void main(String[] args) {
-		String ans = "55/22+3/88+0-9";
-		String[] array = new String[12];
+		String ans = "55/22+3/88+0-99";
+		String[] array = new String[15];
 		int arry_filled = 0;
 		String temp_ = "";
 		for (int i=0; i<ans.length(); i++) {
