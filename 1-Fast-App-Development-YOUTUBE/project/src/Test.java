@@ -4,11 +4,11 @@ public class Test {
 		String[] array = new String[10];
 		String temp_;
 		for (int i=0; i<ans.length(); i++) {
-			char character = ans.charAt(i)
-			if (character == '+' || 
-				character == '-' ||
-				character == '*' ||
-				character == '/'){
+			String character = ans.charAt(i);
+			if (character == "+" || 
+				character == "-" ||
+				character == "*" ||
+				character == "/"){
 				if (temp_.length() > 1){
 					array[array.length+1] = temp_;
 				}
