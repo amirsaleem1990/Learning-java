@@ -263,8 +263,9 @@ public class Test{
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		System.out.println("________" + result);
-		return 4.4;
+		// System.out.println("________" + result);
+		return Double.valueOf(result).doubleValue();
+		// return 4.4;
 		// return line.length();
 
 	}
