@@ -98,8 +98,10 @@ public class Test {
 		// System.out.println(list.size());
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
-			o1 = Double.parseDouble(list.get(i-1));
-			o2 = Double.parseDouble(list.get(i+1));
+			// o1 = Double.parseDouble(list.get(i-1));
+			// o2 = Double.parseDouble(list.get(i+1));
+			double o1 = list.get(i-1);
+			double o2 = list.get(i+1);
 			// if (list.get(i).equals(Character.toString('+'))){
 				// total +=  + ;
 			// }else{
