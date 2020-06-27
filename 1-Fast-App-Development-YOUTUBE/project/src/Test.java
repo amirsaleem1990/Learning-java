@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class Test {
 	public static void main(String[] args) {
-		String ans = "55/22+3/88+3*99";
+		String ans = "55/22+3/88+0*99";
 		String[] array = new String[11];
 		int arry_filled = 0;
 		String temp_ = "";
