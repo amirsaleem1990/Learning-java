@@ -31,24 +31,24 @@ public class Test {
 
 
 
-		int arry_2_filled = 0;
+		int array_2_filled = 0;
 		int[] array_2 = new int[5]; 
 		for (int i=1; i<array.length; i=i+2){
 			// System.out.println(array[i]);
 			if (array[i] == "/" || array[i] == "*"){
-				array_2[arry_2_filled] = i;
-				arry_2_filled += 1;
+				array_2[array_2_filled] = i;
+				array_2_filled += 1;
 			}
 		}
 		for (int i=1; i<array.length; i=i+2){
 			// System.out.println(array[i]);
 			if (array[i] == "+" || array[i] == "-"){
-				array_2[arry_2_filled] = i;
-				arry_2_filled += 1;
+				array_2[array_2_filled] = i;
+				array_2_filled += 1;
 			}
 		}
-		for (int i=0; i<arry_2.length; i++){
-			System.out.println(arry_2[i]);
+		for (int i=0; i<array_2.length; i++){
+			System.out.println(array_2[i]);
 		}
 
 
