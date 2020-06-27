@@ -239,6 +239,7 @@ public class Test{
 	// }
 
 	public static double eval_math_expression(String ans){
+		System.out.println("_________________\n\n\n\n\n__________________");
 		// String ans = "3+1-4/2+3*4-3";
 		String[] array = new String[ans.length()];
 		int arry_filled = 0;
