@@ -63,6 +63,8 @@ public class Test {
 				if (array[x].equals(Character.toString('/'))) {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
+					list.remove(x);
+					System.out.println(x-1);
 					// System.out.println(o1 + ", " + o2);
 					sum += o1  / o2;
 				}else if(array[x].equals(Character.toString('*'))){
@@ -73,18 +75,18 @@ public class Test {
 				}
 			}
 		}
-		
-		for(int i=0; i<array_2.length; i++){
-			int x = array_2[i];
-			if (x>0){
-				System.out.println(x);
-				// System.out.println(list[x-1] + "," + list[x] + "," + list[x+1]);
-				// list.remove(x-1);
-				list.remove(x);
-				// list.remove(x+1);
-				
-			}
-		}
+
+		// for(int i=0; i<array_2.length; i++){
+		// 	int x = array_2[i];
+		// 	if (x>0){
+		// 		System.out.println(x);
+		// 		// System.out.println(list[x-1] + "," + list[x] + "," + list[x+1]);
+		// 		// list.remove(x-1);
+		// 		// list.remove(x);
+		// 		// list.remove(x+1);
+
+		// 	}
+		// }
 		System.out.println(list);
 
 
