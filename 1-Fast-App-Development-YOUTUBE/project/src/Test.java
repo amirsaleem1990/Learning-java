@@ -83,7 +83,6 @@ public class Test {
 					double sum =  o1  * o2;
 					// System.out.println(x);
 					System.out.println(list);
-					System.out.println(array);
 					list.remove(x-removed);
 					list.remove(x-removed);
 					list.remove(x-removed);
