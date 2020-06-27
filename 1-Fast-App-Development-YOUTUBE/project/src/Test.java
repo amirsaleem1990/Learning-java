@@ -181,7 +181,9 @@ public class Test {
 			    ScriptEngine engine = mgr.getEngineByName("JavaScript");
 			    String ans = tf.getText();
 			    // System.out.println(engine.eval(ans));
-			    tf.setText(engine.eval(ans));
+			    double d = engine.eval(ans);
+			    // tf.setText(d);
+			    System.out.println(d);
 			}
 		});
 
