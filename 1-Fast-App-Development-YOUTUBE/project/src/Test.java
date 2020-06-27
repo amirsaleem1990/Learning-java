@@ -66,7 +66,7 @@ public class Test {
 				if (array[x].equals(Character.toString('/'))) {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
-					System.out.println(x);
+					// System.out.println(x);
 					System.out.println(list);
 					list.remove(x-removed);
 					list.remove(x-removed);
@@ -80,7 +80,7 @@ public class Test {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
 					sum += o1  * o2;
-					System.out.println(x);
+					// System.out.println(x);
 					System.out.println(list);
 					list.remove(x-removed);
 					list.remove(x-removed);
