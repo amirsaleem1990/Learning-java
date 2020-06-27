@@ -4,17 +4,17 @@ public class Test {
 		String[] array = new String[10];
 		String temp_;
 		for (int i=0; i<ans.length(); i++) {
-			if (ans.charAt(i).equals("+") || 
-				ans.charAt(i).equals("-") ||
-				ans.charAt(i).equals("*") ||
-				ans.charAt(i).equals("/")){
-				if (temp_.length() > 1){
-					array[array.length+1] = temp_;
-				}
-				array[array.length+1] = ans.charAt(i);
-			}else{
-				temp_ += ans.charAt(i);
-			}
+			// if (ans.charAt(i) == "+" || 
+			// 	ans.charAt(i) == "-" ||
+			// 	ans.charAt(i) == "*" ||
+			// 	ans.charAt(i) == "/"){
+			// 	if (temp_.length() > 1){
+			// 		array[array.length+1] = temp_;
+			// 	}
+			// 	array[array.length+1] = ans.charAt(i);
+			// }else{
+			// 	temp_ += ans.charAt(i);
+			// }
 			System.out.println(ans.charAt(i));
 		}
 	}
