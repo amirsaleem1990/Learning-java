@@ -46,6 +46,7 @@ public class Test {
 		// List<String> list_ = Arrays.asList(array);
 
 		List list = new ArrayList(Arrays.asList(array));
+		System.out.println(list);
 		// for (int i=0; i<array.length; i++){
 			// list.remove(i);
 		// }
@@ -105,14 +106,13 @@ public class Test {
 			String o_2 = list.get(i+1).toString(); 
 			double operand_2 = Double.valueOf(o_2).doubleValue();
 
-			System.out.println("o1: " + operand_1 + "\no2: " + operand_2);
+			// System.out.println("o1: " + operand_1 + "\no2: " + operand_2);
 			if (list.get(i).equals(Character.toString('+'))){
 				total += (operand_1 + operand_2);
 			}else{
 				total += (operand_1 - operand_2);
 			}
 		}
-		System.out.println(list);
 		System.out.println(total);
 
 		// for(int i=0; i<array_2.length; i++){
