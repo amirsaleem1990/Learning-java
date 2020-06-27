@@ -96,8 +96,11 @@ public class Test {
 		}
 		// System.out.println(list.get(0));
 		// System.out.println(list.size());
+		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
-			System.out.println(list.get(i));
+			if (list.get(i).equals(Character.toString('+'))){
+				System.out.println("amir");
+			}
 		}
 
 		// for(int i=0; i<array_2.length; i++){
