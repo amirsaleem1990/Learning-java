@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 
 public class Test{
 	public static void main(String[] args){
-		String command = "/home/amir/py 5";
+		String command = "/home/amir/py 5/2*3";
 		 
 		try {
 		    Process process = Runtime.getRuntime().exec(command);
