@@ -178,7 +178,8 @@ public class Test {
 				String ans = tf.getText();
 			    ScriptEngineManager mgr = new ScriptEngineManager();
 			    ScriptEngine engine = mgr.getEngineByName("JavaScript"); 
-			    System.out.println(engine.eval(ans));
+			    System.out.println(ans.length());
+			    // System.out.println(engine.eval(ans));
 			    // double d = engine.eval(ans);
 			    // tf.setText(d);
 			    // System.out.println(d);	
