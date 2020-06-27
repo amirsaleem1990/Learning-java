@@ -110,6 +110,9 @@ public class Test {
 
 			System.out.println("operand_1: " + operand_1 + "\noperand_2: " + operand_2);
 			if (list.get(i).equals(Character.toString('+'))){
+				if (i != 1){
+					operand_1 = 0;
+				}
 				total += (operand_1 + operand_2);
 			}else{
 				total += (operand_1 - operand_2);
