@@ -193,7 +193,7 @@ public class Test{
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
 				String ans_2 = String.valueOf(eval_math_expression(ans));
-				if ans_2.equals("0.8"){
+				if (ans_2.equals("0.8")){
 					tf.setText("my sweety AYESHOO~ ........ I LOVE U");
 				}else{
 					tf.setText(ans + " = " + ans_2);
