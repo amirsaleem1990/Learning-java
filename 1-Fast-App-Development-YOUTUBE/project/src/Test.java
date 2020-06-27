@@ -9,7 +9,7 @@ public class Test {
 				character == "-"	 ||
 				character == "*"	 ||
 				character == "/"	){
-					// System.out.println(ans.charAt(i));
+					System.out.println(ans.charAt(i));
 				// if (temp_.length() > 1){
 			// 		array[array.length+1] = temp_;
 				}
