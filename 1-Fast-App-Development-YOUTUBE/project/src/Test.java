@@ -10,7 +10,7 @@ public class Test {
 				character == '-'  ||
 				character == '*'  ||
 				character == '/' ){
-				if (temp_.length() > 1){
+				if (temp_.length() > 0){
 					array[arry_filled] = temp_;
 					temp_ = "";
 					arry_filled += 1;
