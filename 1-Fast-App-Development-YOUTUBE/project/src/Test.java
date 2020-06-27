@@ -1,6 +1,6 @@
 public class Test {
 	public static void main(String[] args) {
-		String ans = "55/22+3/88+0-99";
+		String ans = "55/22+3/88+0*99";
 		String[] array = new String[11];
 		int arry_filled = 0;
 		String temp_ = "";
@@ -41,26 +41,23 @@ public class Test {
 					array_2_filled += 1;
 			}
 		}
+		double sum = 0;
 		for (int i=0; i<array_2.length; i++){
-			System.out.println(array_2[i]);
+			int x = array_2[i];
+			if (x > 0){
+				if (array[x].equals(Character.toString('/'))) {
+					double o1 = Double.parseDouble(array[x-1]);
+					double o2 = Double.parseDouble(array[x+1]);
+					System.out.println(o1 + ", " + o2);
+					sum += o1  / o2;
+				}else if(array[x].equals(Character.toString('*'))){
+					double o1 = Double.parseDouble(array[x-1]);
+					double o2 = Double.parseDouble(array[x+1]);
+					sum += o1  * o2;
+					System.out.println(o1 + ", " + o2);
+				}
+			}
 		}
-		// double sum = 0;
-		// for (int i=0; i<array_2.length; i++){
-		// 	int x = array_2[i];
-		// 	if (x > 0){
-		// 		if (array[x].equals(Character.toString('/'))) {
-		// 			double o1 = Double.parseDouble(array[x-1]);
-		// 			double o2 = Double.parseDouble(array[x+1]);
-		// 			System.out.println(o1 + ", " + o2);
-		// 			sum += o1  / o2;
-		// 		}else if(array[x].equals(Character.toString('*'))){
-		// 			double o1 = Double.parseDouble(array[x-1]);
-		// 			double o2 = Double.parseDouble(array[x+1]);
-		// 			sum += o1  * o2;
-		// 			System.out.println(o1 + ", " + o2);
-		// 		}
-		// 	}
-		// }
 
 
 
