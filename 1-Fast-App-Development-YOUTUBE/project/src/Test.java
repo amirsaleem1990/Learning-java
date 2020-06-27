@@ -237,7 +237,7 @@ public class Test{
 	// 	return result_;
 	// }
 
-	public double eval_math_expression(String ans){
+	public static double eval_math_expression(String ans){
 		// String ans = "3+1-4/2+3*4-3";
 		String[] array = new String[ans.length()];
 		int arry_filled = 0;
