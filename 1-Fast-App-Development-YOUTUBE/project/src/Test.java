@@ -261,7 +261,7 @@ public class Test{
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		return 4.4;
+		return line.length();
 
 	}
 }
