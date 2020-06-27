@@ -105,10 +105,11 @@ public class Test {
 			String o2 = list.get(i+1).toString(); 
 			double o2 = Double.valueOf(o2).doubleValue();
 
+			System.out.println("o1: " + o1 + "\no2: " + o2);
 			if (list.get(i).equals(Character.toString('+'))){
-				total += o1 + o2;
+				total += (o1 + o2);
 			}else{
-				total += o1 - o2;
+				total += (o1 - o2);
 			}
 		}
 		System.out.println(list);
