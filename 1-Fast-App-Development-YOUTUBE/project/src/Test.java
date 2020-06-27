@@ -4,18 +4,19 @@ public class Test {
 		String[] array = new String[10];
 		String temp_;
 		for (int i=0; i<ans.length(); i++) {
-			if (ans.charAt(i) == '+' || 
-				ans.charAt(i) == '-' ||
-				ans.charAt(i) == '*' ||
-				ans.charAt(i) == '/'){
+			char character = ans.charAt(i)
+			if (character == '+' || 
+				character == '-' ||
+				character == '*' ||
+				character == '/'){
 				if (temp_.length() > 1){
 					array[array.length+1] = temp_;
 				}
-				array[array.length+1] = (String) ans.charAt(i);
+				array[array.length+1] = (String) character;
 			}else{
-				temp_ += ans.charAt(i);
+				temp_ += character;
 			}
-			System.out.println(ans.charAt(i));
+			System.out.println(character);
 		}
 	}
 }
