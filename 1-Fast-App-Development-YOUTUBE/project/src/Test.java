@@ -18,7 +18,7 @@ public class Test {
 
 		String[] msg_ = new String[3];
 
-		f.setSize(630,900);
+		f.setSize(630,780);
 
 		JButton b_add = new JButton("+");
 		b_add.setFont(new Font("Arial", Font.PLAIN, 40));
