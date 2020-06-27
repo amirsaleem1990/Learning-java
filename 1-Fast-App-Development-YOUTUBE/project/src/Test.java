@@ -29,7 +29,7 @@ public class Test{
 
 		String[] msg_ = new String[3];
 
-		f.setSize(630,780);
+		f.setSize(630,880);
 
 		JButton b_add = new JButton("+");
 		b_add.setFont(new Font("Arial", Font.PLAIN, 40));
@@ -70,7 +70,7 @@ public class Test{
 		Font font1 = new Font("SansSerif", Font.BOLD, 50);
 		tf.setFont(font1);
 		
-		tf.setBounds      (30,  0, 580, 90);
+		tf.setBounds      (30,  100, 580, 90);
 
 		b_add.setBounds   (30,  200, 90, 90); 
 		b_minus.setBounds (125, 200, 90, 90); 
