@@ -12,9 +12,11 @@ public class Test {
 				character == '/' ){
 				if (temp_.length() > 1){
 					array[arry_filled] = temp_;
+					temp_ = "";
 					arry_filled += 1;
 				}
 				array[arry_filled] = Character.toString(character);
+				temp_ = "";
 				arry_filled += 1;
 			}
 			else{
