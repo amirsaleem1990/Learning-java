@@ -10,6 +10,7 @@
 //     System.out.println(engine.eval(ans));
 //     } 
 // }
+import mXparser.*
 public class Test{
 	public static void main(String[] args){
 		Expression ans = new Expression("5/2*3");
