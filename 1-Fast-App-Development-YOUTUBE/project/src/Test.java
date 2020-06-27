@@ -90,7 +90,7 @@ public class Test {
 				}
 			}
 		}
-
+		System.out.println(list);
 
 		// for(int i=0; i<array_2.length; i++){
 		// 	int x = array_2[i];
