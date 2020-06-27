@@ -236,15 +236,8 @@ public class Test{
 		f.setVisible(true); 
 
 	}
-	// public static Object prepare_(String x) throws ScriptException {
-	// 	ScriptEngineManager mgr = new ScriptEngineManager();
-	// 	ScriptEngine engine = mgr.getEngineByName("js"); 
-	// 	Object result_ = engine.eval(x);
-	// 	return result_;
-	// }
 
 	public static double eval_math_expression(String ans){
-
 		String command = "/home/amir/py " + ans;
 		String result = "";
 	    try {
@@ -254,19 +247,12 @@ public class Test{
 		            new InputStreamReader(process.getInputStream()));
 		   	String line;
 		    while ((line = reader.readLine()) != null) {
-		        // System.out.println(line);
 		        result = line;
-		    }
-		 
+		    }		 
 		    reader.close();
-		 
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
-		// System.out.println("________" + result);
 		return Double.valueOf(result).doubleValue();
-		// return 4.4;
-		// return line.length();
-
 	}
 }
