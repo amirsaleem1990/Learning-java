@@ -11,7 +11,7 @@ public class Test {
 				if (temp_.length() > 1){
 					array[array.length+1] = temp_;
 				}
-				array[array.length+1] = ans.charAt(i);
+				array[array.length+1] = (String) ans.charAt(i);
 			}else{
 				temp_ += ans.charAt(i);
 			}
