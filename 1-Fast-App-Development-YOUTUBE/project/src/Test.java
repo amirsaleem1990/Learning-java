@@ -5,18 +5,18 @@ public class Test {
 		String temp_;
 		for (int i=0; i<ans.length(); i++) {
 			char character = ans.charAt(i);
-			// if (character == "+" || 
-			// 	character == "-" ||
-			// 	character == "*" ||
-			// 	character == "/"){
-			// 	if (temp_.length() > 1){
+			if (character == '+'	 || 
+				character == '-'	 ||
+				character == '*'	 ||
+				character == '/'	){
+					System.out.println(character);
+				// if (temp_.length() > 1){
 			// 		array[array.length+1] = temp_;
-			// 	}
-			// 	array[array.length+1] = (String) character;
+				}
+				// array[array.length+1] = (String) character;
 			// }else{
 			// 	temp_ += character;
 			// }
-			System.out.println(character);
 		}
 	}
 }
