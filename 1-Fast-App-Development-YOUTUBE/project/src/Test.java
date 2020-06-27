@@ -11,6 +11,7 @@ public class Test {
 				character == '/' ){
 				if (temp_.length() > 1){
 					System.out.println("OK");
+					System.out.println(array.length);
 					array[array.length+1] = temp_;
 				}
 				array[array.length+1] = Character.toString(character);
