@@ -46,33 +46,36 @@ public class Test {
 		// List<String> list_ = Arrays.asList(array);
 
 		List list_ = new ArrayList(Arrays.asList(array));
+		System.out.println(list_);
+		list_.remove(1);
+		System.out.println(list_);
 
-		double sum = 0;
+		// double sum = 0;
 
-		for (int i=0; i<array_2.length; i++){
-			int x = array_2[i];
-			if (x > 0){
-				if (array[x].equals(Character.toString('/'))) {
-					double o1 = Double.parseDouble(array[x-1]);
-					double o2 = Double.parseDouble(array[x+1]);
-					// System.out.println(o1 + ", " + o2);
-					sum += o1  / o2;
-					list_.remove(x);
-					// System.out.println(x);
-					list_.remove(x-1);
-					list_.remove(x+1);
-				}else if(array[x].equals(Character.toString('*'))){
-					double o1 = Double.parseDouble(array[x-1]);
-					double o2 = Double.parseDouble(array[x+1]);
-					sum += o1  * o2;
-					list_.remove(x);
-					list_.remove(x-1);
-					list_.remove(x+1);
-					// System.out.println(o1 + ", " + o2);
-				}
-			}
-		}
-		// System.out.println(list_);
+		// for (int i=0; i<array_2.length; i++){
+		// 	int x = array_2[i];
+		// 	if (x > 0){
+		// 		if (array[x].equals(Character.toString('/'))) {
+		// 			double o1 = Double.parseDouble(array[x-1]);
+		// 			double o2 = Double.parseDouble(array[x+1]);
+		// 			// System.out.println(o1 + ", " + o2);
+		// 			sum += o1  / o2;
+		// 			// list.remove(x);
+		// 			// System.out.println(x);
+		// 			// list.remove(x-1);
+		// 			// list.remove(x+1);
+		// 		}else if(array[x].equals(Character.toString('*'))){
+		// 			double o1 = Double.parseDouble(array[x-1]);
+		// 			double o2 = Double.parseDouble(array[x+1]);
+		// 			sum += o1  * o2;
+		// 			// list.remove(x);
+		// 			// list.remove(x-1);
+		// 			// list.remove(x+1);
+		// 			// System.out.println(o1 + ", " + o2);
+		// 		}
+		// 	}
+		// }
+		// System.out.println(list);
 
 
 		// for (int i=1; i<array.length; i=i+2){
