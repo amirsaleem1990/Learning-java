@@ -46,6 +46,13 @@ public class Test {
 		// List<String> list_ = Arrays.asList(array);
 
 		List list = new ArrayList(Arrays.asList(array));
+		for (int i=0; i<4; i++){
+			list.remove(i);
+		}
+		// list.remove(0);
+		// list.remove(1);
+		// list.remove(3);
+		// list.remove(4);
 		System.out.println(list);
 
 		// double sum = 0;
