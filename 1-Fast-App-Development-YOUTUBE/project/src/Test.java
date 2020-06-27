@@ -9,15 +9,14 @@ public class Test {
 				character == '-'  ||
 				character == '*'  ||
 				character == '/' ){
-				System.out.println(temp_.length());
-				// if (temp_.length() > 1){
-					// System.out.println("OK");
-					// array[array.length+1] = "amir";
+				if (temp_.length() > 1){
+					System.out.println("OK");
+					array[array.length+1] = temp_;
 				}
-				// array[array.length+1] = (String) character;
-			// }else{
-			// 	temp_ += character;
-			// }
+				array[array.length+1] =  character;
+			}else{
+				temp_ += character;
+			}
 		}
 		// for (int i=0; i<array.length; i++){
 			// System.out.println(array[i]);
