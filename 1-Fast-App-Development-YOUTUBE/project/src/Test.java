@@ -18,8 +18,6 @@ public class Test {
 		
 		ScriptEngineManager mgr = new ScriptEngineManager();
 		ScriptEngine engine = mgr.getEngineByName("js"); 
-		Object result = engine.eval("45*3/2");
-		System.out.println(result);
 
 		JFrame f = new JFrame("Calculator");
 
@@ -181,6 +179,7 @@ public class Test {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
+				Object result = engine.eval("45*3/2");
 				// Object result = engine.eval(ans);
 			    // engine.eval(ans);
 			    // System.out.println(result);
