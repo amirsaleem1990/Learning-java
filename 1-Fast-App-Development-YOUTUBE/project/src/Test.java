@@ -99,11 +99,11 @@ public class Test {
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
 
-			String str = list.get(i-1).toString(); 
-			double o1 = Double.valueOf(str).doubleValue();
+			String o1 = list.get(i-1).toString(); 
+			double o1 = Double.valueOf(o1).doubleValue();
 
-			String str = list.get(i+1).toString(); 
-			double o2 = Double.valueOf(str).doubleValue();
+			String o2 = list.get(i+1).toString(); 
+			double o2 = Double.valueOf(o2).doubleValue();
 
 			if (list.get(i).equals(Character.toString('+'))){
 				total += o1 + o2;
