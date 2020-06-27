@@ -54,8 +54,8 @@ public class Test {
 					double o2 = Double.parseDouble(array[x+1]);
 					// System.out.println(o1 + ", " + o2);
 					sum += o1  / o2;
-					// System.out.println(list[x]);
-					// list.remove(x);
+					list.remove(x);
+					System.out.println(list);
 					// list.remove(x-1);
 					// list.remove(x+1);
 				}else if(array[x].equals(Character.toString('*'))){
@@ -69,7 +69,7 @@ public class Test {
 				}
 			}
 		}
-		System.out.println(list);
+		// System.out.println(list);
 
 
 		// for (int i=1; i<array.length; i=i+2){
