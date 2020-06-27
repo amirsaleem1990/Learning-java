@@ -81,7 +81,7 @@ public class Test {
 					System.out.println(list);
 					list.remove(x);
 					list.remove(x);
-					// list.remove(x-1);
+					list.remove(x-1);
 					System.out.println(list);
 					System.out.println("\n\n");
 					// System.out.println(o1 + ", " + o2);
