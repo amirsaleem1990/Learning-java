@@ -181,9 +181,8 @@ public class Test {
 			@Override		
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
-				String ans = "45/2";
-
-				System.out.println(result_);
+				String ans_ = prepare_(ans);
+				System.out.println(ans_);
 				// tf.setText(result_);
 
 				// System.out.println(result_);
