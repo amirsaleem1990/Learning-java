@@ -80,7 +80,7 @@ public class Test {
 					System.out.println(x);
 					System.out.println(list);
 					list.remove(x);
-					// list.remove(x);
+					list.remove(x);
 					// list.remove(x-1);
 					System.out.println(list);
 					System.out.println("\n\n");
