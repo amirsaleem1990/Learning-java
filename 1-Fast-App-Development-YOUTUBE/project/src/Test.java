@@ -15,9 +15,10 @@ public class Test {
 				}
 				array[array.length+1] = Character.toString(character);
 			}
-			// else{
-				// temp_ += Character.toString(character);
-			// }
+			else{
+				temp_ += Character.toString(character);
+				System.out.println(temp_);
+			}
 		}
 		// for (int i=0; i<array.length; i++){
 			// System.out.println(array[i]);
