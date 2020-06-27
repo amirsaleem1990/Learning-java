@@ -98,9 +98,9 @@ public class Test {
 		// System.out.println(list.size());
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
-			String str = list.get(i-1).toString(); 
-			double d = Double.valueOf(str).doubleValue();
-			System.out.println(d);
+
+			double o1 = Double.valueOf(list.get(i-1).toString()).doubleValue();
+			System.out.println(o1);
 			// double  o2 = Double.parseDouble(list.get(i+1));
 			// double o1 = list.get(i-1);
 			// double o2 = list.get(i+1);
