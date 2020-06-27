@@ -178,7 +178,7 @@ public class Test {
 			@Override		
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
-				double ans_ = prepare_(ans);
+				Object ans_ = prepare_(ans);
 				System.out.println(ans_);
 				// tf.setText(result_);
 
@@ -224,10 +224,10 @@ public class Test {
 		f.setVisible(true); 
 
 	}
-	public double prepare_(String x){
+	public static Object prepare_(String x){
 		ScriptEngineManager mgr = new ScriptEngineManager();
 		ScriptEngine engine = mgr.getEngineByName("js"); 
-		double result_ = engine.eval(x);
+		Object result_ = engine.eval(x);
 		return result_;
 	}
 }
