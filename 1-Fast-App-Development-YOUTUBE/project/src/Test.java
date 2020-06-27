@@ -13,7 +13,7 @@ public class Test {
 				character == '/' ){
 				if (temp_.length() > 1){
 					System.out.println("OK");
-					LIST.add();
+					LIST.add(temp_);
 				}
 				LIST.add(character);
 			}else{
