@@ -14,7 +14,7 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptException;
 
 public class Test {
-	public static void main(String[] args) throws ScriptException {
+	public static void main(String[] args)  {
 		
 		ScriptEngineManager mgr = new ScriptEngineManager();
 		ScriptEngine engine = mgr.getEngineByName("js"); 
@@ -176,9 +176,10 @@ public class Test {
 			}
 		});
 		b_ans.addActionListener(new ActionListener() {			
-			String ans = tf.getText();
-			Object result_ = engine.eval(ans);
-			public void actionPerformed(ActionEvent arg0) {
+			// String ans = tf.getText();
+			public void actionPerformed(ActionEvent arg0) throws ScriptException {
+				String ans = "45/2";
+				Object result_ = engine.eval(ans);
 				System.out.println(result_);
 				// tf.setText(result_);
 
