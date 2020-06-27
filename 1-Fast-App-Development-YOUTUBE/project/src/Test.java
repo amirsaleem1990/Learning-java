@@ -64,7 +64,7 @@ public class Test {
 		b_minus.setBounds (140, 200, 100, 90); 
 		b_devide.setBounds(250, 200, 100, 90); 
 		b_mult.setBounds  (360, 200, 100, 90); 
-		b_ans.setBounds   (470, 200, 100, 90);
+		b_ans.setBounds   (470, 200, 140, 90);
 
 		b1.setBounds      (30,  300, 180, 90);
 		b2.setBounds      (230, 300, 180, 90);
