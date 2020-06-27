@@ -243,27 +243,16 @@ public class Test{
 
 	public static double eval_math_expression(String ans){
 
-public class Test{
-	public static void main(String[] args){
-		String command = "/home/amir/py 5/2*3";
-		 
-		try {
-		    Process process = Runtime.getRuntime().exec(command);
-		 
-		    BufferedReader reader = new BufferedReader(
-		            new InputStreamReader(process.getInputStream()));
-		    String line;
-		    while ((line = reader.readLine()) != null) {
-		        System.out.println(line);
-		    }
-		 
-		    reader.close();
-		 
-		} catch (IOException e) {
-		    e.printStackTrace();
-		}
-	}
-}
+		String command = "/home/amir/py " + ans;
+	    Process process = Runtime.getRuntime().exec(command);
+	    BufferedReader reader = new BufferedReader(
+	            new InputStreamReader(process.getInputStream()));
+	    String line;
+	    while ((line = reader.readLine()) != null) {
+	        System.out.println("______" + line);
+	    }
+	 
+	    reader.close();
 
 	}
 }
