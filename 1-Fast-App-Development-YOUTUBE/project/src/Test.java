@@ -43,6 +43,7 @@ public class Test {
 		}
 
 		List<String> list = Arrays.asList(array);
+		// System.out.println(list);
 		list.remove(0);
 
 		// double sum = 0;
