@@ -37,15 +37,17 @@ public class Test {
 			// System.out.println(array[i]);
 			if (array[i] == "/" || array[i] == "*"){
 				array_2[arry_2_filled] = i;
+				arry_2_filled += 1;
 			}
 		}
 		for (int i=1; i<array.length; i=i+2){
 			// System.out.println(array[i]);
 			if (array[i] == "+" || array[i] == "-"){
 				array_2[arry_2_filled] = i;
+				arry_2_filled += 1;
 			}
 		}
-		for (iii : array_2){
+		for (int iii : array_2){
 			System.out.println(iii);
 		}
 
