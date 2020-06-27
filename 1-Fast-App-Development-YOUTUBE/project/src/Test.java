@@ -56,6 +56,7 @@ public class Test {
 		// System.out.println(list);
 
 		double sum = 0;
+		System.out.println(list);
 
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i];
@@ -65,6 +66,7 @@ public class Test {
 					double o2 = Double.parseDouble(array[x+1]);
 					list.remove(x);
 					list.remove(x);
+					list.remove(x-1);
 					// list.remove(x-1);
 					// list.remove(x+1);
 					// list.remove(x+1);
