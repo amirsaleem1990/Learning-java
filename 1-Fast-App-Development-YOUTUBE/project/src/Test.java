@@ -36,7 +36,7 @@ public class Test{
 		JButton b_mult = new JButton("*");
 		b_mult.setFont(new Font("Arial", Font.PLAIN, 40));
 		JButton b_ans = new JButton("Ans.");
-		b_ans.setFont(new Font("Arial", Font.PLAIN, 40));
+		b_ans.setFont(new Font("Arial", Font.PLAIN, 20));
 		JButton b_clear = new JButton("C");
 		b_clear.setFont(new Font("Arial", Font.PLAIN, 40));
 
@@ -72,8 +72,8 @@ public class Test{
 		b_minus.setBounds (130, 200, 90, 90); 
 		b_devide.setBounds(230, 200, 90, 90); 
 		b_mult.setBounds  (320, 200, 90, 90); 
-		b_ans.setBounds   (410, 200, 90, 90);
-		b_clear.setBounds (510, 200, 90, 90);
+		b_ans.setBounds   (420, 200, 90, 90);
+		b_clear.setBounds (520, 200, 90, 90);
 
 		b1.setBounds      (30,  300, 180, 90);
 		b2.setBounds      (230, 300, 180, 90);
