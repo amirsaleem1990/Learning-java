@@ -70,7 +70,7 @@ public class Test{
 		Font font1 = new Font("SansSerif", Font.BOLD, 50);
 		tf.setFont(font1);
 		
-		tf.setBounds      (30,  100, 580, 90);
+		tf.setBounds      (30,  0, 580, 90);
 
 		b_add.setBounds   (30,  200, 90, 90); 
 		b_minus.setBounds (125, 200, 90, 90); 
