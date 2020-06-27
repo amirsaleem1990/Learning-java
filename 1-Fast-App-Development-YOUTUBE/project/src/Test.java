@@ -38,7 +38,6 @@ public class Test {
 			if (array[i].equals(Character.toString('/')) || 
 				array[i].equals(Character.toString('*'))){
 					array_2[array_2_filled] = i;
-					System.out.println(array_2[array_2_filled]);
 					array_2_filled += 1;
 			}
 		}
