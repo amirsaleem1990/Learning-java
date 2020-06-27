@@ -13,10 +13,10 @@ public class Test {
 					System.out.println("OK");
 					array[array.length+1] = temp_;
 				}
-				// array[array.length+1] = (String) character;
-			// }else{
-			// 	temp_ += character;
-			// }
+				array[array.length+1] = Character.toString(character);
+			}else{
+				temp_ += Character.toString(character);
+			}
 		}
 		// for (int i=0; i<array.length; i++){
 			// System.out.println(array[i]);
