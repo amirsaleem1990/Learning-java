@@ -112,6 +112,7 @@ public class Test {
 			}else{
 				total += (operand_1 - operand_2);
 			}
+			System.out.println("total: " + total);
 		}
 		// System.out.println(total);
 
