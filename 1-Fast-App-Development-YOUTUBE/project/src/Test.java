@@ -261,6 +261,8 @@ public class Test{
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
+		System.out.println(line.length());
+		return 4.4;
 		// return line.length();
 
 	}
