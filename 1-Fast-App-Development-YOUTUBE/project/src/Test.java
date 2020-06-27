@@ -70,7 +70,7 @@ public class Test {
 					list.remove(x-removed);
 					list.remove(x-removed);
 					list.remove(x-1-removed);
-					list.add(x-removed-1, sum);
+					list.add(x-removed, sum);
 					removed += 3;
 					System.out.println(list);
 					System.out.println("\n\n");
@@ -83,7 +83,7 @@ public class Test {
 					System.out.println(list);
 					list.remove(x-removed);
 					list.remove(x-removed);
-					list.remove(x-1-removed);
+					list.remove(x-removed);
 					removed += 3;
 					list.add(x-removed, sum);
 					System.out.println(list);
