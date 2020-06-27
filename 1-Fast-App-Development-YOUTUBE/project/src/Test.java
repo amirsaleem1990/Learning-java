@@ -183,8 +183,9 @@ public class Test{
 			@Override		
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
-				ans = eval_math_expression(ans);
-				tf.setText(ans);
+				System.out.println(ans);
+				// ans = eval_math_expression(ans);
+				// tf.setText(ans);
 
 				// System.out.println(result_);
 				// Object result = engine.eval(ans);
