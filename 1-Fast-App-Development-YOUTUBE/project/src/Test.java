@@ -14,7 +14,7 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptException;
 
 public class Test {
-	public static void main(String[] args)  {
+	public static void main(String[] args) throws ScriptException {
 
 		JFrame f = new JFrame("Calculator");
 
@@ -224,7 +224,7 @@ public class Test {
 		f.setVisible(true); 
 
 	}
-	public static Object prepare_(String x){
+	public static Object prepare_(String x) throws ScriptException {
 		ScriptEngineManager mgr = new ScriptEngineManager();
 		ScriptEngine engine = mgr.getEngineByName("js"); 
 		Object result_ = engine.eval(x);
