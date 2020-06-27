@@ -1,3 +1,5 @@
+import java.util.Arrays;
+import java.util.List;
 public class Test {
 	public static void main(String[] args) {
 		String ans = "55/22+3/88+0*99";
@@ -40,25 +42,29 @@ public class Test {
 			}
 		}
 
-		double sum = 0;
-		for (int i=0; i<array_2.length; i++){
-			int x = array_2[i];
-			if (x > 0){
-				if (array[x].equals(Character.toString('/'))) {
-					double o1 = Double.parseDouble(array[x-1]);
-					double o2 = Double.parseDouble(array[x+1]);
-					// System.out.println(o1 + ", " + o2);
-					sum += o1  / o2;
-				}else if(array[x].equals(Character.toString('*'))){
-					double o1 = Double.parseDouble(array[x-1]);
-					double o2 = Double.parseDouble(array[x+1]);
-					sum += o1  * o2;
-					// System.out.println(o1 + ", " + o2);
-				}
-			}
-		}
+		List<String> list = Arrays.asList(array);
+		System.out.println(list);
 
-		
+		// double sum = 0;
+
+		// for (int i=0; i<array_2.length; i++){
+		// 	int x = array_2[i];
+		// 	if (x > 0){
+		// 		if (array[x].equals(Character.toString('/'))) {
+		// 			double o1 = Double.parseDouble(array[x-1]);
+		// 			double o2 = Double.parseDouble(array[x+1]);
+		// 			// System.out.println(o1 + ", " + o2);
+		// 			sum += o1  / o2;
+		// 		}else if(array[x].equals(Character.toString('*'))){
+		// 			double o1 = Double.parseDouble(array[x-1]);
+		// 			double o2 = Double.parseDouble(array[x+1]);
+		// 			sum += o1  * o2;
+		// 			// System.out.println(o1 + ", " + o2);
+		// 		}
+		// 	}
+		// }
+
+
 
 		// for (int i=1; i<array.length; i=i+2){
 		// 	// System.out.println(array[i]);
