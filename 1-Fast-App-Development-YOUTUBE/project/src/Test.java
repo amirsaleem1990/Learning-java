@@ -94,7 +94,7 @@ public class Test {
 				}
 			}
 		}
-		System.out.println(list.length);
+		System.out.println(list.get(0));
 		// System.out.println(sum);
 
 		// for(int i=0; i<array_2.length; i++){
