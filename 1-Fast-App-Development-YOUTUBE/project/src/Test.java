@@ -99,9 +99,13 @@ public class Test {
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
 			if (list.get(i).equals(Character.toString('+'))){
-				System.out.println("amir");
+				total += list.get(i-1) + list.get(i+1);
+			}else{
+				total += list.get(i-1) - list.get(i+1);
 			}
 		}
+		System.out.println(list);
+		System.out.println(total);
 
 		// for(int i=0; i<array_2.length; i++){
 		// 	int x = array_2[i];
