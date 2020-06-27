@@ -175,9 +175,10 @@ public class Test {
 				tf.setText(tf.getText() + "*"); 
 			}
 		});
-		b_ans.addActionListener(new ActionListener() {			
+		b_ans.addActionListener(new ActionListener() {	
+			@Override		
 			// String ans = tf.getText();
-			public void actionPerformed(ActionEvent arg0) throws ScriptException {
+			public void actionPerformed(ActionEvent arg0) {
 				String ans = "45/2";
 				Object result_ = engine.eval(ans);
 				System.out.println(result_);
