@@ -61,7 +61,7 @@ public class Test {
 		for (int i=0; i<array_2.length; i++){
 			int x = array_2[i] - removed;
 
-			if (array_2[i] > 0){
+			if (x > 0){
 				if (array[x].equals(Character.toString('/'))) {
 					double o1 = Double.parseDouble(array[x-1]);
 					double o2 = Double.parseDouble(array[x+1]);
@@ -104,7 +104,7 @@ public class Test {
 
 		// 	}
 		// }
-		System.out.println(list);
+		// System.out.println(list);
 
 
 		// for (int i=1; i<array.length; i=i+2){
