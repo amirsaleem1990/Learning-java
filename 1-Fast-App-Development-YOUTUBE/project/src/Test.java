@@ -254,7 +254,8 @@ public class Test{
 	        System.out.println("______" + line);
 	    }
 	 
-	    // reader.close();
+	    reader.close();
+	    return line
 
 	}
 }
