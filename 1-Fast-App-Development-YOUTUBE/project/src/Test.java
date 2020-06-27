@@ -61,10 +61,10 @@ public class Test {
 		tf.setBounds      (30,  100, 580, 90);
 
 		b_add.setBounds   (30,  200, 100, 90); 
-		b_minus.setBounds (130, 200, 100, 90); 
-		b_devide.setBounds(230, 200, 100, 90); 
-		b_mult.setBounds  (330, 200, 100, 90); 
-		b_ans.setBounds   (430, 200, 100, 90);
+		b_minus.setBounds (150, 200, 100, 90); 
+		b_devide.setBounds(270, 200, 100, 90); 
+		b_mult.setBounds  (390, 200, 100, 90); 
+		b_ans.setBounds   (510, 200, 100, 90);
 
 		b1.setBounds      (30,  300, 180, 90);
 		b2.setBounds      (230, 300, 180, 90);
