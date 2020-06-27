@@ -5,11 +5,7 @@ import java.io.InputStreamReader;
 public class Test{
 	public static void main(String[] args){
 		String command = "/home/amir/py 5+6";
-		 
-		try {
-		    Process process = Runtime.getRuntime().exec(command);
-		 } catch (IOException e) {
-		    e.printStackTrace();
+	    Process process = Runtime.getRuntime().exec(command);
+	    System.out.println(process);
 		}
 	}
-}
