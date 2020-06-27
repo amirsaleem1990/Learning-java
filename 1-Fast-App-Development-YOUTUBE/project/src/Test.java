@@ -99,17 +99,17 @@ public class Test {
 		double total = 0.0;
 		for (int i=1; i<list.size(); i=i+2){
 
-			String o1 = list.get(i-1).toString(); 
-			double o1 = Double.valueOf(o1).doubleValue();
+			String operand_1 = list.get(i-1).toString(); 
+			double operand_1 = Double.valueOf(operand_1).doubleValue();
 
-			String o2 = list.get(i+1).toString(); 
-			double o2 = Double.valueOf(o2).doubleValue();
+			String operand_2 = list.get(i+1).toString(); 
+			double operand_2 = Double.valueOf(operand_2).doubleValue();
 
-			System.out.println("o1: " + o1 + "\no2: " + o2);
+			System.out.println("o1: " + operand_1 + "\no2: " + operand_2);
 			if (list.get(i).equals(Character.toString('+'))){
-				total += (o1 + o2);
+				total += (operand_1 + operand_2);
 			}else{
-				total += (o1 - o2);
+				total += (operand_1 - operand_2);
 			}
 		}
 		System.out.println(list);
