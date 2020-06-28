@@ -10,7 +10,7 @@ public class Test {
 
     System.out.println("Enter your Expression: ");
     Scanner value_ = new Scanner(System.in);
-    String expression = value_.nextInt();
+    String expression = value_.nextLine();
     // String foo = "40/2+5";
     System.out.println(engine.eval(expression));
     } 
