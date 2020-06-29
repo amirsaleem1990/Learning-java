@@ -36,7 +36,7 @@ public class Test  {
 			// 	System.out.println("Magrib     : " +  Magrib);
 			// 	System.out.println("Isha       : " +  Isha);
 				int[] arrayrow_int = to_int(arrayrow);
-				System.out.println(arrayrow_int[1]);
+				System.out.println(arrayrow_int);
 			}
 		}
 	sc.close();
