@@ -1,8 +1,7 @@
 // Graphical User Interface
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptEngine;
-import javax.script.ScriptException;
-import java.util.Scanner;
+import javax.script.ScriptException;	
 
 import javax.swing.JFrame;
 
@@ -28,7 +27,7 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptException;
 
 public class Test{
-	public static  void main(String[] args) throws ScriptException {
+	public static  void main(String[] args) {
 
 		JFrame f = new JFrame("Calculator");
 
@@ -199,12 +198,13 @@ public class Test{
 
 		b_ans.addActionListener(new ActionListener() {	
 			@Override		
-			public void actionPerformed(ActionEvent arg0) {
+			public void actionPerformed(ActionEvent arg0) throws ScriptException {
 				String ans = tf.getText();
-				//Hack: save <ans> to file, then eval(ans) in python, then load it back here as ans, and pas it to next line
-				// String ans_2 = String.valueOf(eval_math_expression(ans));
-				eval_math_expression(ans);
-				// tf.setText(ans + " = " + ans_2);
+				ScriptEngineManager manager = new ScriptEngineManager();
+				ScriptEngine se = manager.getEngineByName("JavaScript");        
+				Object result = se.eval(ans);
+				String finalAnswer = result.toString();
+				tf.setText(ans + " = " + finalAnswer);
 			}
 		});
 
@@ -241,16 +241,5 @@ public class Test{
 		// ye bohot zaroori h, agar ye nahi ho ga to program chaly ga to sahi magar kuch bhi show nahi ho ga. 
 		f.setVisible(true); 
 
-	}
-
-	public String eval_math_expression(String expression) throws ScriptException{
-	    ScriptEngineManager mgr = new ScriptEngineManager();
-	    ScriptEngine engine = mgr.getEngineByName("JavaScript");
-	    System.out.println(
-	    	String.valueOf(engine.eval(expression))
-	    	);
-	    // String ans = engine.eval(expression);
-	    // System.out.println(ans);
-	    return "ans";
 	}
 }
