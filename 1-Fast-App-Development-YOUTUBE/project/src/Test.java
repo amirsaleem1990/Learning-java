@@ -1,4 +1,9 @@
 //"/home/amir/github/working/Namaz-times/Namaz_2.csv"
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+import java.awt.Font;
+
+
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.io.*;  
@@ -7,36 +12,63 @@ public class Test  {
 	public static void main(String[] args) throws Exception {
 		int    current_time = current_time();  // 781
 		String system_date  = current_date();  // 6-29
-
 		Scanner sc = new Scanner(new File("/home/amir/github/working/Namaz-times/Namaz_2.csv"));  
 		sc.useDelimiter("\n");
+		int minutes_baqi_hen = 0;
+		int next_namaz_time_in_minute = 0;
+		String next_namez_actual_time = "";
+		String next_namaz_name_ = "";
 //		Month,Date,Subah_sadiq,Tulu_aaftab,Zawal,Asr_1,Asr_2,Magrib,Isha
 		while (sc.hasNext()) {  //returns a boolean value
 			String row = sc.next(); // 8,31,04:54,06:12,12:32,16:01,17:04,18:53,20:10
 			String[] arrayrow = row.split(","); 
 			String csv_date = arrayrow[0] + "-" + arrayrow[1];
-
 			if (csv_date.equals(system_date)){
 				int[] arrayrow_int = to_int(arrayrow);
 				for (int i=0; i<arrayrow_int.length; i++){
 					if (arrayrow_int[i] > current_time){
-						int next_namaz_time_in_minute = arrayrow_int[i];
-						int minutes_baqi_hen = next_namaz_time_in_minute - current_time;
-
-						String next_namaz_name_ = next_namaz_name(i);
-
+						next_namaz_time_in_minute = arrayrow_int[i];
+						minutes_baqi_hen = next_namaz_time_in_minute - current_time;
+						next_namaz_name_ = next_namaz_name(i);
+						next_namez_actual_time = row.split(",")[i+2];
 						System.out.println(minutes_baqi_hen);
-						System.out.println(row.split(",")[i+2]);
+						System.out.println(next_namez_actual_time);
 						System.out.println(next_namaz_name_);
-
 						break;
-					}
-				}
-			}
-		}
+					}}}}
 	sc.close();
-	}  
 
+
+	JFrame f = new JFrame("Namaz");
+	f.setSize(630,780);
+	// Font font1 = new Font("SansSerif", Font.BOLD, 50);
+
+	// JTextField tf_minutes_baqi_hen       = new JTextField("");
+	// JTextField tf_next_namez_actual_time = new JTextField("");
+	// JTextField tf_next_namaz_name_       = new JTextField("");
+
+	// tf_minutes_baqi_hen.setFont(font1);
+	// tf_next_namez_actual_time.setFont(font1);
+	// tf_next_namaz_name_.setFont(font1);
+
+	// tf_minutes_baqi_hen.setBounds      (30,  100, 580, 90);
+	// tf_next_namez_actual_time.setBounds(30,  200, 580, 90);
+	// tf_next_namaz_name_.setBounds      (30,  300, 580, 90);
+
+	// f.add(tf_minutes_baqi_hen);
+	// f.add(tf_next_namez_actual_time);
+	// f.add(tf_next_namaz_name_);
+
+	// tf_minutes_baqi_hen.setText("");
+	// tf_next_namez_actual_time.setText("");
+	// tf_next_namaz_name_.setText("");
+
+
+	f.setLayout(null); 
+	f.setLocationRelativeTo(null); 
+	f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
+	f.setVisible(true);
+	}  
 	// helper functions
 	public static int[] to_int(String[] x){
 		int[] array_minutes = new int[7];
