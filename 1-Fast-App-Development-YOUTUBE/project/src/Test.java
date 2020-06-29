@@ -1,4 +1,9 @@
 // Graphical User Interface
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptEngine;
+import javax.script.ScriptException;
+import java.util.Scanner;
+
 import javax.swing.JFrame;
 
 import java.awt.event.ActionEvent;
@@ -197,8 +202,9 @@ public class Test{
 			public void actionPerformed(ActionEvent arg0) {
 				String ans = tf.getText();
 				//Hack: save <ans> to file, then eval(ans) in python, then load it back here as ans, and pas it to next line
-				String ans_2 = String.valueOf(eval_math_expression(ans));
-				tf.setText(ans + " = " + ans_2);
+				// String ans_2 = String.valueOf(eval_math_expression(ans));
+				eval_math_expression(ans);
+				// tf.setText(ans + " = " + ans_2);
 			}
 		});
 
@@ -237,22 +243,14 @@ public class Test{
 
 	}
 
-	public static double eval_math_expression(String ans){
-		String command = "/home/amir/py " + ans;
-		String result = "";
-	    try {
-		    Process process = Runtime.getRuntime().exec(command);
-		 
-		    BufferedReader reader = new BufferedReader(
-		            new InputStreamReader(process.getInputStream()));
-		   	String line;
-		    while ((line = reader.readLine()) != null) {
-		        result = line;
-		    }		 
-		    reader.close();
-		} catch (IOException e) {
-		    e.printStackTrace();
-		}
-		return Double.valueOf(result).doubleValue();
+	public String eval_math_expression(String expression) throws ScriptException{
+	    ScriptEngineManager mgr = new ScriptEngineManager();
+	    ScriptEngine engine = mgr.getEngineByName("JavaScript");
+	    System.out.println(
+	    	String.valueOf(engine.eval(expression))
+	    	);
+	    // String ans = engine.eval(expression);
+	    // System.out.println(ans);
+	    return "ans";
 	}
 }
