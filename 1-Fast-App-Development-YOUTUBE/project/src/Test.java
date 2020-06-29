@@ -14,32 +14,34 @@ public class Test  {
 		Scanner sc = new Scanner(new File("/home/amir/github/working/Namaz-times/Namaz_2.csv"));  
 		sc.useDelimiter("\n");
 //		Month,Date,Subah_sadiq,Tulu_aaftab,Zawal,Asr_1,Asr_2,Magrib,Isha
-		String month;
-		String date;
-		String Subah_sadiq;
-		String Tulu_aaftab;
-		String Zawal;
-		String Asr_1;
-		String Asr_2;
-		String Magrib;
-		String Isha;
-		// System.out.println(date_);
 		while (sc.hasNext()) {  //returns a boolean value
 			String row = sc.next(); // 8,31,04:54,06:12,12:32,16:01,17:04,18:53,20:10
 			String[] arrayrow = row.split(","); 
 			String csv_date = arrayrow[0] + "-" + arrayrow[1];
 			if (csv_date.equals(system_date)){
-				month = arrayrow[0];
-				date = arrayrow[1];
-				Subah_sadiq = arrayrow[2];
-				Tulu_aaftab = arrayrow[3];
-				Zawal = arrayrow[4];
-				Asr_1 = arrayrow[5];
-				Asr_2 = arrayrow[6];
-				Magrib = arrayrow[7];
-				Isha = arrayrow[8];	
+			// 	String month = arrayrow[0];
+			// 	String date = arrayrow[1];
+			// 	String Subah_sadiq = arrayrow[2];
+			// 	String Tulu_aaftab = arrayrow[3];
+			// 	String Zawal = arrayrow[4];
+			// 	String Asr_1 = arrayrow[5];
+			// 	String Asr_2 = arrayrow[6];
+			// 	String Magrib = arrayrow[7];
+			// 	String Isha = arrayrow[8];	
+			// 	System.out.println("Subah_sadiq: " +  Subah_sadiq);
+			// 	System.out.println("Tulu_aaftab: " +  Tulu_aaftab);
+			// 	System.out.println("Zawal      : " +  Zawal);
+			// 	System.out.println("Asr_1      : " +  Asr_1);
+			// 	System.out.println("Asr_2      : " +  Asr_2);
+			// 	System.out.println("Magrib     : " +  Magrib);
+			// 	System.out.println("Isha       : " +  Isha);
+				to_int(arrayrow);
 			}
 		}
 	sc.close();
 	}  
+	public int to_int(String[] x){
+		System.out.println(x);
+
+	}
 }  
