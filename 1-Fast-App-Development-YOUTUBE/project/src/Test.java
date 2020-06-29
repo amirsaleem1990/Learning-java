@@ -3,10 +3,14 @@ import java.util.Date;
 
 public class Test{
 	public static void main(String[] args) {
-		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");  
-	    Date date = new Date();  
-	    System.out.println(formatter.format(date).toString()); 
+		String name = FORLOOP();
+		System.out.println(name);
+		public String final FORLOOP() {
+			for (int i=0; i<4; i++) {
+				String name = "amir";
+				String fName = "saleem";
+				return name + "||" + fName;
+			}
+		}
 	}
 }
-
-//2020-06-29
