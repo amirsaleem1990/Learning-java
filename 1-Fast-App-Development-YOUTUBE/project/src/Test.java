@@ -31,9 +31,9 @@ public class Test  {
 						minutes_baqi_hen = next_namaz_time_in_minute - current_time;
 						next_namaz_name_ = next_namaz_name(i);
 						next_namez_actual_time = row.split(",")[i+2];
-						System.out.println(minutes_baqi_hen);
-						System.out.println(next_namez_actual_time);
-						System.out.println(next_namaz_name_);
+						// System.out.println(minutes_baqi_hen);
+						// System.out.println(next_namez_actual_time);
+						// System.out.println(next_namaz_name_);
 						break;
 					}}}}
 	sc.close();
@@ -41,27 +41,27 @@ public class Test  {
 
 	JFrame f = new JFrame("Namaz");
 	f.setSize(630,780);
-	// Font font1 = new Font("SansSerif", Font.BOLD, 50);
+	Font font1 = new Font("SansSerif", Font.BOLD, 50);
 
-	// JTextField tf_minutes_baqi_hen       = new JTextField("");
-	// JTextField tf_next_namez_actual_time = new JTextField("");
-	// JTextField tf_next_namaz_name_       = new JTextField("");
+	JTextField tf_minutes_baqi_hen       = new JTextField("");
+	JTextField tf_next_namez_actual_time = new JTextField("");
+	JTextField tf_next_namaz_name_       = new JTextField("");
 
-	// tf_minutes_baqi_hen.setFont(font1);
-	// tf_next_namez_actual_time.setFont(font1);
-	// tf_next_namaz_name_.setFont(font1);
+	tf_minutes_baqi_hen.setFont(font1);
+	tf_next_namez_actual_time.setFont(font1);
+	tf_next_namaz_name_.setFont(font1);
 
-	// tf_minutes_baqi_hen.setBounds      (30,  100, 580, 90);
-	// tf_next_namez_actual_time.setBounds(30,  200, 580, 90);
-	// tf_next_namaz_name_.setBounds      (30,  300, 580, 90);
+	tf_minutes_baqi_hen.setBounds      (30,  100, 580, 90);
+	tf_next_namez_actual_time.setBounds(30,  200, 580, 90);
+	tf_next_namaz_name_.setBounds      (30,  300, 580, 90);
 
-	// f.add(tf_minutes_baqi_hen);
-	// f.add(tf_next_namez_actual_time);
-	// f.add(tf_next_namaz_name_);
+	f.add(tf_minutes_baqi_hen);
+	f.add(tf_next_namez_actual_time);
+	f.add(tf_next_namaz_name_);
 
-	// tf_minutes_baqi_hen.setText("");
-	// tf_next_namez_actual_time.setText("");
-	// tf_next_namaz_name_.setText("");
+	tf_minutes_baqi_hen.setText("Time left: " + String.valueOf(minutes_baqi_hen));
+	tf_next_namez_actual_time.setText("Actual Time: " + next_namez_actual_time);
+	tf_next_namaz_name_.setText("Namaz: " + next_namaz_name_);
 
 
 	f.setLayout(null); 
