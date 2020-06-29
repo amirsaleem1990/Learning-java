@@ -35,13 +35,22 @@ public class Test  {
 			// 	System.out.println("Asr_2      : " +  Asr_2);
 			// 	System.out.println("Magrib     : " +  Magrib);
 			// 	System.out.println("Isha       : " +  Isha);
-				to_int(arrayrow);
+				int[] arrayrow_int = to_int(arrayrow);
+				System.out.println(arrayrow_int[1]);
 			}
 		}
 	sc.close();
 	}  
-	public int to_int(String[] x){
-		System.out.println(x);
-
+	public static int[] to_int(String[] x){
+		int[] array_minutes = new int[7];
+		for (int i=2; i<x.length; i++){
+			String[] splited = x[i].split(":");
+			String hour   = splited[0].replaceFirst("^0+(?!$)", "");
+			String minute = splited[1].replaceFirst("^0+(?!$)", "");  
+			int h_m = Integer.parseInt(hour)*60;
+			int m_m = Integer.parseInt(minute);
+			array_minutes[i-2] = h_m + m_m;
+		}
+		return array_minutes;
 	}
-}  
+}
