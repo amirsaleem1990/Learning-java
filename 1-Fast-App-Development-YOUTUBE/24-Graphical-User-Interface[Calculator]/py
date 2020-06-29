@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+import sys
+command = "".join(sys.argv[1:])
+print(round(eval(command),2))

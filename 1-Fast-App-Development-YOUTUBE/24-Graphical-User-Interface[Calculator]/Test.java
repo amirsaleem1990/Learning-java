@@ -238,7 +238,7 @@ public class Test{
 	}
 
 	public static double eval_math_expression(String ans){
-		String command = "/home/amir/py " + ans;
+		String command = "/home/amir/github/Learning-java/1-Fast-App-Development-YOUTUBE/24-Graphical-User-Interface[Calculator] " + ans;
 		String result = "";
 	    try {
 		    Process process = Runtime.getRuntime().exec(command);
