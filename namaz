@@ -1,0 +1,10 @@
+TextView TV_time_left, TV_namaz_name, TV_namaz_actual_time;
+
+
+TV_time_left = (TextView) findViewById(R.id.TV_time_left);
+TV_namaz_name = (TextView) findViewById(R.id.TV_namaz_name);
+TV_namaz_actual_time = (TextView) findViewById(R.id.TV_namaz_actual_time);
+
+TV_time_left.setText("TV_time_left");
+TV_namaz_actual_time.setText("TV_namaz_actual_time");
+TV_namaz_name.setText("TV_namaz_name");
