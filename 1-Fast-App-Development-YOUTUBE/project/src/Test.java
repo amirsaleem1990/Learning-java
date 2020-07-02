@@ -1,7 +1,12 @@
 public class Test{
-	public static void main(String[] args) {
-		int x , y, z;
-		x = y  = z = 99;
-		System.out.println(x + " " + y);
-    }
+	public static void main(String[] args){
+		DateTimeFormatter parser = ISODateTimeFormat.date();
+
+		DateTime date = parser.parseDateTime(dateString);
+
+		String nextDay = parser.print(date.plusDays(1));
+		System.out.println(nextDay);
+	}
 }
+
+
