@@ -127,7 +127,7 @@ ArrayList<String> words = new ArrayList<String>();
 words.add("Book");
 words.add("Desk");
 //------------------------------------------------------------------------------------
-string to int ....... int i=Integer.parseInt(s);
-  
+string to int ....... int i=Integer.parseInt(s); .......... Integer i=Integer.valueOf(s);  
+int to string ....... String str1 = Integer.toString(a); ......... String str3 = String.valueOf(c);  ......... int d = 1234; String str4 = new Integer(d).toString(); 
 //------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------
